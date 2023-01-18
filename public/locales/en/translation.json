@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "title": "Welcome to my talks",
+    "content": "There's two great hobbies in my life: lifeguarding and software engineering. I've even managed to make the latter my work. In this small sites you'll find presentations on both subjects."
+  },
+  "languages": {
+    "nl-NL": "Nederlands",
+    "en-GB": "English"
+  },
+  "home": {
+    "sections": {
+      "title": "Choose a subject:",
+      "lifeguarding": {
+        "title": "Lifeguarding",
+        "content": "Presentations regarding lifesaver and lifeguarding trainings",
+        "ow": {
+          "title": "Lifeguard Open Water & Beach",
+          "content": "The presentations belonging to the training (junio/senior) lifeguard and specialisations"
+        },
+        "lifesaver": {
+          "title": "Lifesaver",
+          "content": "The presentations belonging to the training lifesaver 2 & 3"
+        },
+        "incidents": {
+          "title": "Major incidents",
+          "content": "Learn how the Dutch emergency services communicate and handle during major incidents"
+        }
+      },
+      "frontend": {
+        "title": "Web Development",
+        "content": "Talks on UI/UX and techniques like ReactJS, HTML, Tailwind, etc."
+      },
+      "backend": {
+        "title": "Backend",
+        "content": "Talks on API's, clean architecture, microservices and techniques like Java (Spring) and PHP."
+      }
+    }
+  },
+  "back": "Back",
+  "slides": {
+    "lifeguarding": {
+      "disasters": {
+        "title": "Major incidents",
+        "subtitle": "and how the Dutch emergency services handles them",
+        "1-agenda": {
+          "title": "Agenda",
+          "1": "Organisation of Services",
+          "2": "Coordinated Regional \n Incidentprocedure",
+          "3": "Major Medical Assistance",
+          "4": "Major Police Deployment",
+          "5": "National Rescue Fleet"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "title": "Welkom bij mijn presentaties",
+    "content": "Ik heb twee grote hobbies in mijn leven: de reddingsbrigade en informatica. Van de laatste heb ik zelfs mijn werk kunnen maken. Op deze website vind je presentaties over beide onderwerpen."
+  },
+  "languages": {
+    "dutch": "Nederlands",
+    "english": "English"
+  },
+  "home": {
+    "sections": {
+      "title": "Kies een onderwerp:",
+      "lifeguarding": {
+        "title": "Reddingsbrigade",
+        "content": "Presentaties met de reddingsbrigade als onderwerp voor o.a. de lifeguard en lifesaver opleidingen.",
+        "ow": {
+          "title": "Lifeguard Open Water & Beach",
+          "content": "De presentaties voor de opleidingen (junior/senior) lifeguard en specialisaties"
+        },
+        "lifesaver": {
+          "title": "Lifesaver",
+          "content": "De presentaties voor de opleidingen lifesaver 2 & 3"
+        },
+        "incidents": {
+          "title": "Grootschalige incidenten",
+          "content": "Leer hoe de nederlandse hulpdiensten handelen bij grootschalige incidenten?"
+        }
+      },
+      "frontend": {
+        "title": "Web Development",
+        "content": "Presentaties over web development, UI/UX en technieken als ReactJS, HTML, Tailwind, etc."
+      },
+      "backend": {
+        "title": "Backend",
+        "content": "Presentaties over API's, clean architecture, microservices en technieken zoals Java (Spring) en PHP."
+      }
+    }
+  },
+  "back": "Terug",
+  "slides": {
+    "lifeguarding": {
+      "disasters": {
+        "title": "Grootschalige Incidenten",
+        "subtitle": "en hoe Nederlandse hulpdiensten ermee omgaan",
+        "1-agenda": {
+          "title": "Agenda",
+          "1": "Organisatie hulpverlening",
+          "2": "Gecoördineerde Regionale \n Incidentbestrijdingsprocedure",
+          "3": "Grootschalige Geneeskundige \n Bijstand",
+          "4": "Grootschalige inzet politie",
+          "5": "Nationale Reddingsvloot"
+        }
+      }
+    }
+  }
+}
