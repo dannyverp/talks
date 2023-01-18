@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Welcome to my talks",
+    "title": "Welcome",
     "content": "There's two great hobbies in my life: lifeguarding and software engineering. I've even managed to make the latter my work. In this small sites you'll find presentations on both subjects."
   },
   "languages": {
@@ -37,6 +37,9 @@
     }
   },
   "back": "Back",
+  "chapter": "Chapter",
+  "next": "Next presentation",
+  "overview": "Back to overview",
   "slides": {
     "lifeguarding": {
       "disasters": {
@@ -49,6 +52,82 @@
           "3": "Major Medical Assistance",
           "4": "Major Police Deployment",
           "5": "National Rescue Fleet"
+        }
+      },
+      "lifesaver": {
+        "overview": {
+          "introduction": {
+            "title": "Introduction & the Dutch Lifesaving Federation",
+            "content": "Welcome to the theory classes. Check this section for the schedules and in introduction to the lifeguard associations."
+          },
+          "safety": {
+            "title": "Swimming skill, safety awareness and self-rescue",
+            "content": "In this section we look into the importance of self-rescue and swimming skills. Besides that we'll have a look at safety awareness and the risks of swimming."
+          },
+          "skills": {
+            "title": "Knowledge and skills",
+            "content": "This sections focuses on different types of rescue, recognizing a person in distress and rendering first aid."
+          },
+          "aid": {
+            "title": "The course of a rescue",
+            "content": "The last section takes you trough the course of a rescue and what your role as a lifesaver could be."
+          }
+        },
+        "intro": {
+          "title": "Introduction & the Dutch Lifesaving Federation",
+          "agenda": {
+            "title": "Agenda",
+            "planning": "Lesson planning",
+            "lifeguard-federation": "Lifeguard associations",
+            "lifesavers": "The role of a lifesaver"
+          },
+          "planning": {
+            "title": "Planning",
+            "intro": "De content of the theory is divided into these lessons:",
+            "lesson1": "Introduction, associations and lifesaver",
+            "lesson2": "Swimming skills and safety awareness",
+            "lesson3": "Risks and self-rescue",
+            "lesson4": "Knowledge and skills",
+            "lesson5": "Rendering first aid",
+            "lesson6": "The rescue",
+            "lesson7": "Summary, quiz and questions"
+          },
+          "associations": {
+            "title": "Dutch Lifeguard Federation: organisation and activities"
+          },
+          "lifesaver": {
+            "title": "The roles and responsibilities of a lifesaver"
+          }
+        },
+        "safety": {
+          "title": "Swimming skills, safety awareness and self-rescue",
+          "swimming-skills": {
+            "title": "Swimming skills for lifesaving"
+          },
+          "safety-awareness": {
+            "title": "Safety awareness"
+          },
+          "risks": {
+            "title": "The water and its risks"
+          },
+          "self-rescue": {
+            "title": "Self-rescue"
+          }
+        },
+        "skills": {
+          "title": "Knowledge and skills for a safe rescue",
+          "skills": {
+            "title": "knowledge and skills"
+          },
+          "first-aid": {
+            "title": "First aid"
+          }
+        },
+        "the-rescue": {
+          "title": "The rescue",
+          "rescue": {
+            "title": "The rescue in case of an emergency"
+          }
         }
       }
     }

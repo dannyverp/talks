@@ -1,7 +1,7 @@
 import React from "react";
 
 interface titleSlide {
-    children: React.ReactElement
+    children: React.ReactElement | React.ReactElement[]
     backgroundImage?: string
     backgroundSize?: string
 }
@@ -12,7 +12,7 @@ const TitleSlide = ({children, backgroundImage, backgroundSize}: titleSlide) => 
                  data-background-color="rgb(249,115,22)"
                  data-background-image={backgroundImage}
                  data-background-size={backgroundSize}>
-            <div className="!prose !prose-invert">
+            <div className="!prose !prose-invert !max-w-none">
                 {children}
             </div>
         </section>
