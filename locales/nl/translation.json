@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Welcome to my talks",
-    "content": "There's two great hobbies in my life: lifeguarding and software engineering. I've even managed to make the latter my work. In this small sites you'll find presentations on both subjects."
+    "title": "Welkom bij mijn presentaties",
+    "content": "Ik heb twee grote hobbies in mijn leven: de reddingsbrigade en informatica. Van de laatste heb ik zelfs mijn werk kunnen maken. Op deze website vind je presentaties over beide onderwerpen."
   },
   "languages": {
     "dutch": "Nederlands",
@@ -9,39 +9,47 @@
   },
   "home": {
     "sections": {
-      "title": "Choose a subject:",
+      "title": "Kies een onderwerp:",
       "lifeguarding": {
-        "title": "Lifeguarding",
-        "content": "Presentations regarding lifesaver and lifeguarding trainings",
+        "title": "Reddingsbrigade",
+        "content": "Presentaties met de reddingsbrigade als onderwerp voor o.a. de lifeguard en lifesaver opleidingen.",
         "ow": {
           "title": "Lifeguard Open Water & Beach",
-          "content": "The presentations belonging to the training (junio/senior) lifeguard and specialisations"
+          "content": "De presentaties voor de opleidingen (junior/senior) lifeguard en specialisaties"
         },
         "lifesaver": {
           "title": "Lifesaver",
-          "content": "The presentations belonging to the training lifesaver 2 & 3"
+          "content": "De presentaties voor de opleidingen lifesaver 2 & 3"
         },
         "incidents": {
-          "title": "Major incidents",
-          "content": "Learn how the Dutch emergency services communicate and handle during major incidents"
+          "title": "Grootschalige incidenten",
+          "content": "Leer hoe de nederlandse hulpdiensten handelen bij grootschalige incidenten?"
         }
       },
       "frontend": {
         "title": "Web Development",
-        "content": "Talks on UI/UX and techniques like ReactJS, HTML, Tailwind, etc."
+        "content": "Presentaties over web development, UI/UX en technieken als ReactJS, HTML, Tailwind, etc."
       },
       "backend": {
         "title": "Backend",
-        "content": "Talks on API's, clean architecture, microservices and techniques like Java (Spring) and PHP."
+        "content": "Presentaties over API's, clean architecture, microservices en technieken zoals Java (Spring) en PHP."
       }
     }
   },
-  "back": "Back",
+  "back": "Terug",
   "slides": {
     "lifeguarding": {
       "disasters": {
         "title": "Grootschalige Incidenten",
-        "subtitle": "en hoe Nederlandse hulpdiensten ermee omgaan"
+        "subtitle": "en hoe Nederlandse hulpdiensten ermee omgaan",
+        "1-agenda": {
+          "title": "Agenda",
+          "1": "Organisatie hulpverlening",
+          "2": "Gecoördineerde Regionale \n Incidentbestrijdingsprocedure",
+          "3": "Grootschalige Geneeskundige \n Bijstand",
+          "4": "Grootschalige inzet politie",
+          "5": "Nationale Reddingsvloot"
+        }
       }
     }
   }

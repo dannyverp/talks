@@ -41,7 +41,15 @@
     "lifeguarding": {
       "disasters": {
         "title": "Major incidents",
-        "subtitle": "and how the Dutch emergency services handles them"
+        "subtitle": "and how the Dutch emergency services handles them",
+        "1-agenda": {
+          "title": "Agenda",
+          "1": "Organisation of Services",
+          "2": "Coordinated Regional \n Incidentprocedure",
+          "3": "Major Medical Assistance",
+          "4": "Major Police Deployment",
+          "5": "National Rescue Fleet"
+        }
       }
     }
   }
