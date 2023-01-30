@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.13e851d1.css",
-    "main.js": "/static/js/main.e747740c.js",
+    "main.js": "/static/js/main.6bc42c5e.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/101.png": "/static/media/101.3e1589750ef0936b189f.png",
     "static/media/frontend.jpg": "/static/media/frontend.3be721bbf4f4a24f26c4.jpg",
     "static/media/major.jpg": "/static/media/major.86e80b003499a5c84c3e.jpg",
     "static/media/source-sans-pro-regular.ttf": "/static/media/source-sans-pro-regular.45c54810910de71280ab.ttf",
     "static/media/source-sans-pro-semibold.ttf": "/static/media/source-sans-pro-semibold.6ebea875df77b49da05b.ttf",
+    "static/media/voertuigen.jpeg": "/static/media/voertuigen.77c9a7fc277c0281e658.jpeg",
     "static/media/source-sans-pro-semibolditalic.ttf": "/static/media/source-sans-pro-semibolditalic.522a9ee9b3b2ecbdd367.ttf",
     "static/media/source-sans-pro-italic.ttf": "/static/media/source-sans-pro-italic.10a5cb40054505a4b3a9.ttf",
     "static/media/backend.jpg": "/static/media/backend.7d1ceb50f0e424cda8b0.jpg",
@@ -24,11 +25,11 @@
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.13e851d1.css.map": "/static/css/main.13e851d1.css.map",
-    "main.e747740c.js.map": "/static/js/main.e747740c.js.map",
+    "main.6bc42c5e.js.map": "/static/js/main.6bc42c5e.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13e851d1.css",
-    "static/js/main.e747740c.js"
+    "static/js/main.6bc42c5e.js"
   ]
 }
