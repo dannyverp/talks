@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Welkom bij mijn presentaties",
+    "title": "Welkom!",
     "content": "Ik heb twee grote hobbies in mijn leven: de reddingsbrigade en informatica. Van de laatste heb ik zelfs mijn werk kunnen maken. Op deze website vind je presentaties over beide onderwerpen."
   },
   "languages": {
@@ -37,6 +37,9 @@
     }
   },
   "back": "Terug",
+  "chapter": "Hoofdstuk",
+  "next": "Volgende presentatie",
+  "overview": "Terug naar overzicht",
   "slides": {
     "lifeguarding": {
       "disasters": {
@@ -49,6 +52,82 @@
           "3": "Grootschalige Geneeskundige \n Bijstand",
           "4": "Grootschalige inzet politie",
           "5": "Nationale Reddingsvloot"
+        }
+      },
+      "lifesaver": {
+        "overview": {
+          "introduction": {
+            "title": "Introductie & de reddingsbrigade",
+            "content": "Welkom bij de theorielessen! Kijk hier voor het lesschema en een introductie in wat de Reddingsbrigade is."
+          },
+          "safety": {
+            "title": "Zwemvaardigheid, veiligheidsbewustzijn & zelfredding",
+            "content": "In dit deel wordt het belang van zelfredzaamheid en zwemvaardigheid onderstreept. Verder werken we aan het veiligheidsbewustzijn en risico's van het water."
+          },
+          "skills": {
+            "title": "Kennis en vaardigheden",
+            "content": "In dit deel behandeling we verschillende soorten reddingen, het herkennen van personen in problemen en het verlenen van eerste hulp."
+          },
+          "aid": {
+            "title": "Hulpverlening",
+            "content": "In het laatste deel kijken we naar het verloop van de hulpverlening en hoe jij daar als lifesaver in past."
+          }
+        },
+        "intro": {
+          "title": "Introductie & de reddingsbrigade",
+          "agenda": {
+            "title": "Agenda",
+            "planning": "Planning theorielessen",
+            "lifeguard-federation": "De reddingsbrigade",
+            "lifesavers": "De rol van de lifesaver"
+          },
+          "planning": {
+            "title": "Planning",
+            "intro": "De inhoud van de theorie is verdeeld over de volgende lessen:",
+            "lesson1": "Introductie, reddingsbrigade en lifesaver",
+            "lesson2": "Zwemvaardigheid en veiligheidsbewustzijn",
+            "lesson3": "Risico's en zelfredding",
+            "lesson4": "Kennis en vaardigheden",
+            "lesson5": "Het verlenen van eerste hulp",
+            "lesson6": "Waterhulpverlening",
+            "lesson7": "Herhaling, quiz en vragen"
+          },
+          "associations": {
+            "title": "Reddingsbrigade: organisatie en activiteiten"
+          },
+          "lifesaver": {
+            "title": "De rol en verantwoordelijkheden van een lifesaver"
+          }
+        },
+        "safety": {
+          "title": "Zwemvaardigheid, Veiligheidsbewustzijn en zelfredding",
+          "swimming-skills": {
+            "title": "Zwemvaardigheid voor lifesaving"
+          },
+          "safety-awareness": {
+            "title": "Veiligheidsbewustzijn"
+          },
+          "risks": {
+            "title": "De wateromgeving en risico's"
+          },
+          "self-rescue": {
+            "title": "Zelfredding"
+          }
+        },
+        "skills": {
+          "title": "Kennis en vaardigheden voor een veilige hulpverlening",
+          "skills": {
+            "title": "Kennis en vaardigheden"
+          },
+          "first-aid": {
+            "title": "Verlenen van eerste hulp"
+          }
+        },
+        "the-rescue": {
+          "title": "Hulpverlening",
+          "rescue": {
+            "title": "De redding in geval van nood"
+          }
         }
       }
     }
