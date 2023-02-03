@@ -8,7 +8,8 @@ interface slide {
 
 const Slide = ({children, backgroundImage, backgroundSize}: slide) => {
     return (
-        <section data-transition="slide" className="flex flex-col justify-center items-center"
+        <section data-transition="slide"
+                 className="flex flex-col justify-center items-center"
                  data-background-color="#fff"
                  data-background-image={backgroundImage}
                  data-background-size={backgroundSize}>

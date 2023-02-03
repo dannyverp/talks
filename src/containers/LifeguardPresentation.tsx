@@ -9,10 +9,10 @@ interface lifeguardPresentation {
 
 const Presentation = ({children}: lifeguardPresentation) => {
     return (
-        <>
+        <div className="flex flex-col">
             <PresentationBar/>
             {children}
-        </>
+        </div>
     )
 };
 

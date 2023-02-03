@@ -8,7 +8,7 @@ const PresentationBar = () => {
 
     return (
         <header
-            className="flex flex-row items-stretch justify-between z-50 fixed px-4 top-0 left-0 bg-white w-full shadow-xl">
+            className="flex flex-row items-stretch justify-between z-50 px-4 top-0 left-0 bg-white w-full shadow-xl">
             <Link to="/lifeguarding">
                 <Logo collapsed={false} association="Enschede" regionClassName="text-blue-600"
                       associationClassName="inline text-blue-600 text-xs"
