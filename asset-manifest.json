@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.4abf9d6d.css",
-    "main.js": "/static/js/main.cd5ac1aa.js",
+    "main.css": "/static/css/main.4c499211.css",
+    "main.js": "/static/js/main.0b306a61.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/rescue.jpg": "/static/media/rescue.8c1a27e58a0961717a55.jpg",
     "static/media/101.png": "/static/media/101.3e1589750ef0936b189f.png",
     "static/media/frontend.jpg": "/static/media/frontend.3be721bbf4f4a24f26c4.jpg",
     "static/media/major.jpg": "/static/media/major.86e80b003499a5c84c3e.jpg",
+    "static/media/lifeguard.jpeg": "/static/media/lifeguard.52601c9f3d6d558b4e09.jpeg",
     "static/media/source-sans-pro-regular.ttf": "/static/media/source-sans-pro-regular.45c54810910de71280ab.ttf",
     "static/media/source-sans-pro-semibold.ttf": "/static/media/source-sans-pro-semibold.6ebea875df77b49da05b.ttf",
     "static/media/voertuigen.jpeg": "/static/media/voertuigen.77c9a7fc277c0281e658.jpeg",
@@ -26,14 +27,15 @@
     "static/media/rn.jpg": "/static/media/rn.2ceef062e456f370fe3f.jpg",
     "static/media/source-sans-pro-italic.eot": "/static/media/source-sans-pro-italic.97e79d3e28a440c77195.eot",
     "static/media/source-sans-pro-semibolditalic.eot": "/static/media/source-sans-pro-semibolditalic.fb03c6601ab6f48952c4.eot",
+    "static/media/bystander.webp": "/static/media/bystander.ebb2590e80114f927e4f.webp",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.4abf9d6d.css.map": "/static/css/main.4abf9d6d.css.map",
-    "main.cd5ac1aa.js.map": "/static/js/main.cd5ac1aa.js.map",
+    "main.4c499211.css.map": "/static/css/main.4c499211.css.map",
+    "main.0b306a61.js.map": "/static/js/main.0b306a61.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4abf9d6d.css",
-    "static/js/main.cd5ac1aa.js"
+    "static/css/main.4c499211.css",
+    "static/js/main.0b306a61.js"
   ]
 }
