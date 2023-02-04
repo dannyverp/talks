@@ -93,10 +93,106 @@
             "lesson7": "Summary, quiz and questions"
           },
           "associations": {
-            "title": "Dutch Lifeguard Federation: organisation and activities"
+            "title": "Dutch Lifeguard Federation: organisation and activities",
+            "swimming": {
+              "title": "Swimming in the Netherlands",
+              "legal": "Legal everywhere, except:",
+              "exceptions1": "Waterways and ferry routes",
+              "exceptions": "In harbors and near bridges, locks and viaducts",
+              "notices": "Not always clearly indicated but it's recorded in laws",
+              "risks": "Swimming in open water is always at own risk",
+              "locations": "750 dedicated swimming location, can be found at:"
+            },
+            "history": {
+              "title": "Founding and history",
+              "foundedAs": "Founded in 1917 as",
+              "foundedBy": "by associations from: Den Bosch, Amsterdam, Breda, Den Haag and Haarlem",
+              "goal": "Goals is unity in education and rescue techniques",
+              "royal": "From 1952 registered as royal institute",
+              "rename": "From 2007 renamed to Reddingsbrigade Nederland with KNBRD as statutory name"
+            },
+            "organisation": {
+              "title": "Organisation of associations",
+              "organisation": "Level",
+              "operational": "Operational responsibilities",
+              "sports": "Sport responsibilities",
+              "ils": "International Life Saving Federation (ILS)",
+              "conference": "Organises world conference on drowning prevention",
+              "ilsResponsibilities": "Norms for prevention, operations, sports en business interests.",
+              "wc": "World Championship Lifesaving",
+              "ilse": "ILS Europe (ILSE)",
+              "ilseResponsibilities": "Norms within Europe for trainings, operations, sports, boards en policy.",
+              "ec": "European Championship Lifesaving",
+              "reddingsbrigadeNL": "Dutch lifeguard federation",
+              "nationalResponsibilities1": "Nationale norms for trainings, operations and sport.",
+              "nationalResponsibilities2": "Assigned task of National Rescue Fleet together with fire department.",
+              "nk": "National Championship Lifesaving",
+              "individuals": "Individual associations",
+              "individualsResponsibilities": "Execute prevention and rescues at locations/events",
+              "educate":  "Training",
+              "sport": "Lifesaving sport",
+              "clubChampionship": "Club Championships"
+            },
+            "trainings": {
+              "title": "Lifesaving Training",
+              "intro": "Goals is to increase self-rescue abilities and basic rescue techniques in a sportive manner. Lifesavers can rescue themselves and others.",
+              "training": "Training",
+              "content": "Content",
+              "junior": "Junior Rescuer 1 - 4",
+              "selfRescue": "After first swimming certificates increase self-rescue ability in a playful manner.",
+              "rescuer": "Rescues 1 - 4",
+              "rescue": "Learning the basics of a rescue where safety of the rescuers is a key element.",
+              "lifesaver": "Lifesaver 1 - 3",
+              "lifesaving": "A lifesaver learns some first aid and works further to become a skilled rescuer. Has the ability to rescue themselves and others when passing an emergency situation."
+            },
+            "activities": {
+              "title": "Other activities",
+              "operational": "Lifeguarding",
+              "educate": "Educate",
+              "guard": "Monitoring",
+              "stepIn": "Prevention",
+              "renderAid": "Render aid",
+              "report": "Report",
+              "sports": "Lifesavingsport",
+              "pool": "Pool events",
+              "ocean": "Ocean events",
+              "serc": "SERC",
+              "fleet": "National Rescue Fleet",
+              "regions": "22 regions",
+              "units": "4 units per region",
+              "fire": "Mix of firefighters and lifeguards"
+            }
           },
           "lifesaver": {
-            "title": "The roles and responsibilities of a lifesaver"
+            "title": "The roles and responsibilities of a lifesaver",
+            "lifesaver": {
+              "title": "What is a lifesaver?",
+              "preparation": "Preparation for lifesaving sport or lifeguarding",
+              "emergencies": "Can perform a rescue in case of an emergency with rescue or helping materials that are for hand.",
+              "renderAid": "Render aid when passing accidents during e.g. ice skating, a walk or car accidents",
+              "physical": "Enough physical endurance for a rescue",
+              "knowledge": "Enough knowledge of currents, biological hazards and other dangers to pull off a safe rescue."
+            },
+            "lifeguard": {
+              "title": "What is a lifeguard?",
+              "professional": "Monitoring, prevention and rescues at a professional level",
+              "prevention": "Execute prevention and informational tasks",
+              "knowledge": "Extended knowledge of dangers and risks bound to water."
+            },
+            "leadership": {
+              "title": "Lifesaver as leader",
+              "amateurs": "Usually leads bystanders without experience",
+              "aspects": "Important aspects to consider when leading:",
+              "delegate": "Delegate",
+              "check": "Check",
+              "correct": "Correct",
+              "evaluate": "Evaluate"
+            },
+            "ambassadors": {
+              "title": "Ambassador for water-safety",
+              "careful": "Aware of risks",
+              "inform": "Inform people in your surroundings"
+            }
           }
         },
         "safety": {

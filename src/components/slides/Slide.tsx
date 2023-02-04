@@ -1,4 +1,5 @@
 import React from "react";
+import classNames from "classnames";
 
 interface slide {
     children: React.ReactElement | React.ReactElement[]
@@ -41,12 +42,14 @@ const SlideUl = ({children}: slideUl) => {
 }
 
 interface slideUl {
-    children: React.ReactElement | React.ReactElement[]
+    children: React.ReactElement | React.ReactElement[],
+    start? : number
+    className?: string
 }
 
-const SlideOl = ({children}: slideUl) => {
+const SlideOl = ({children, start, className}: slideUl) => {
     return (
-        <ol className="text-left space-y-6 list-disc marker:!text-indigo-500">{children}</ol>
+        <ol className={classNames(className, "text-left space-y-6 list-disc marker:!text-indigo-500")} start={start}>{children}</ol>
     )
 }
 

@@ -5,6 +5,8 @@ import {useTranslation} from "react-i18next";
 import {Slide, SlideOl, SlideTitle, SlideUl} from "components/slides/Slide";
 import {FaCaretLeft, FaCaretRight} from "react-icons/fa";
 import {Link} from "react-router-dom";
+import bystander from "assets/img/bystander.webp"
+import lifeguard from "assets/img/lifeguard.jpeg"
 
 const Intro = () => {
 
@@ -29,7 +31,7 @@ const Intro = () => {
     return (
         <>
             <div className="reveal flex-grow !w-screen">
-                <div className="slides !h-full !w-11/12 mx-auto">
+                <div className="slides py-20">
                     <TitleSlide>
                         <h1>{translate('slides.lifeguarding.lifesaver.intro.title')}</h1>
                     </TitleSlide>
@@ -56,91 +58,186 @@ const Intro = () => {
                     </Slide>
                     <TitleSlide>
                         <h1>{translate('chapter')} 1</h1>
-                        <h2>{translate('slides.lifeguarding.lifesaver.intro.associations.title')}</h2>
+                        <h2>{translate('slides.lifeguarding.lifesaver.intro.associations.swimming.title')}</h2>
                     </TitleSlide>
                     <Slide>
-                        <h1>Zwemmen in Nederland</h1>
+                        <h1>{translate('slides.lifeguarding.lifesaver.intro.associations.swimming.title')}</h1>
                         <SlideUl>
-                            <li>Overal legaal, behalve uitzonderingen:</li>
+                            <li>{translate('slides.lifeguarding.lifesaver.intro.associations.swimming.legal')}</li>
                             <SlideUl>
-                                <li>Vaarwegen en veerpont routes</li>
-                                <li>In havens en bij bruggen, sluizen en viaducten</li>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.associations.swimming.exceptions1')}</li>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.associations.swimming.exceptions')}</li>
                             </SlideUl>
-                            <li>Staat niet altijd ter plekke aangegeven maaar wel in wet vastgelegd</li>
-                            <li className="text-red-400">Zwemmen in open water is altijd op eigen risico</li>
-                            <li>750 aangewezen zwemlocatie te vinden op <a href="https://zwemwater.nl">zwemwater.nl</a>
+                            <li>{translate('slides.lifeguarding.lifesaver.intro.associations.swimming.notices')}</li>
+                            <li className="text-red-400">{translate('slides.lifeguarding.lifesaver.intro.associations.swimming.notices')}</li>
+                            <li>{translate('slides.lifeguarding.lifesaver.intro.associations.swimming.locations')} <a href="https://zwemwater.nl">zwemwater.nl</a>
                             </li>
                         </SlideUl>
                     </Slide>
                     <Slide>
-                        <h1>Oprichting en geschiedenis</h1>
+                        <h1>{translate('slides.lifeguarding.lifesaver.intro.associations.history.title')}</h1>
                         <SlideUl>
-                            <li>Opgericht in 1917 als <strong className="!text-orange-400 font-extrabold">Nederlandsche
-                                Bond tot het Redden van Drenkelingen</strong> door
-                                reddingsbrigades: Den Bosch, Amsterdam, Breda, Den Haag en
-                                Haarlem
+                            <li>{translate('slides.lifeguarding.lifesaver.intro.associations.history.foundedAs')} <strong className="!text-orange-400 font-extrabold">Nederlansche Bond tot het Redden van Drenkelingen</strong> {translate('slides.lifeguarding.lifesaver.intro.associations.history.foundedBy')}
                             </li>
                             <SlideUl>
-                                <li>Doel is eenheid in lesstof en reddingstechnieken</li>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.associations.history.goal')}</li>
                             </SlideUl>
-                            <li>Vanaf 1952 het predicaat Koninklijke Bond</li>
-                            <li>Vanaf 2007 hernoemd naar Reddingsbrigade Nederland met KNBRD als statutaire naam</li>
+                            <li>{translate('slides.lifeguarding.lifesaver.intro.associations.history.royal')}</li>
+                            <li>{translate('slides.lifeguarding.lifesaver.intro.associations.history.rename')}</li>
                         </SlideUl>
                     </Slide>
                     <Slide>
-                        <h1>Organisatie Reddingsbrigades</h1>
+                        <h1>{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.title')}</h1>
                         <table>
                             <thead>
                             <tr className="font-extrabold">
-                                <td>Organisaties</td>
-                                <td>Hulpverlening</td>
-                                <td>Lifesavingsport</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.organisation')}</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.operational')}</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.sports')}</td>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td className="font-extrabold">International Life Saving Federation (ILS)</td>
-                                <td className="!space-y-1">
-                                    <p className="!mt-0">Organiseer world conference on drowning prevention</p>
-                                    <p>Normstelling voor preventie, hulpverlening, sport en zakelijke
-                                        belangen.</p>
+                                <td className="font-extrabold">{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.ils')}</td>
+                                <td className="!gap-y-1">
+                                    <p className="!mt-0 !mb-1">{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.conference')}</p>
+                                    <p className="!mt-0 !mb-1">{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.ilsResponsibilities')}</p>
                                 </td>
-                                <td>WK Lifesaving</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.wc')}</td>
                             </tr>
                             <tr>
-                                <td className="font-extrabold">ILS Europe (ILSE)</td>
-                                <td className="!space-y-1">
-                                    <p className="!mt-0">
-                                        Normstelling binnen Europa voor opleiding, hulpverlening, sport, bestuur en
-                                        beleid.</p></td>
-                                <td>EK Lifesaving</td>
+                                <td className="font-extrabold">{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.ilse')}</td>
+                                <td className="!gap-y-1">
+                                    <p className="!mt-0 !mb-0">{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.ilseResponsibilities')}</p></td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.ec')}</td>
                             </tr>
                             <tr>
-                                <td className="font-extrabold">Reddingsbrigade Nederland</td>
-                                <td className="!space-y-1">
-                                    <p className="!mt-0">
-                                        Nationale normstelling voor opleiding, hulpverlening, sport..</p>
-                                    <p className="!mt-0">
-                                        Opdrachtnemer Nationale Reddingsvloot samen met de brandweer.</p>
+                                <td className="font-extrabold">{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.reddingsbrigadeNL')}</td>
+                                <td className="!gap-y-1">
+                                    <p className="!mt-0 !mb-1">{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.nationalResponsibilities1')}</p>
+                                    <p className="!mt-0 !mb-1">{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.nationalResponsibilities2')}</p>
                                 </td>
-                                <td>NK Lifesaving</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.nk')}</td>
                             </tr>
                             <tr>
-                                <td className="font-extrabold">Invidiuele reddingsbrigades</td>
-                                <td></td>
+                                <td className="font-extrabold">{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.individuals')}</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.individualsResponsibilities')}</td>
                                 <td>
-                                    Lifesaving-opleidingen<br/>
-                                    Lifesaving sport<br/>
-                                    Clubwedstrijden
+                                    {translate('slides.lifeguarding.lifesaver.intro.associations.organisation.educate')}<br/>
+                                    {translate('slides.lifeguarding.lifesaver.intro.associations.organisation.sport')}<br/>
+                                    {translate('slides.lifeguarding.lifesaver.intro.associations.organisation.clubChampionship')}
                                 </td>
                             </tr>
                             </tbody>
                         </table>
                     </Slide>
+                    <Slide>
+                        <h1>{translate('slides.lifeguarding.lifesaver.intro.associations.trainings.title')}</h1>
+                        <p>{translate('slides.lifeguarding.lifesaver.intro.associations.trainings.intro')}</p>
+                        <table>
+                            <thead>
+                            <tr className="font-bold">
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.trainings.training')}</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.trainings.content')}</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.trainings.junior')}</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.trainings.selfRescue')}</td>
+                            </tr>
+                            <tr>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.trainings.rescuer')}</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.trainings.rescue')}</td>
+                            </tr>
+                            <tr>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.trainings.lifesaver')}</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.trainings.lifesaving')}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </Slide>
+                    <Slide>
+                        <h1>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.title')}</h1>
+                        <div className="flex space-x-3">
+                            <SlideUl>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.operational')}</li>
+                                <SlideOl className="!ml-0">
+                                    <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.educate')}</li>
+                                    <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.guard')}</li>
+                                    <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.stepIn')}</li>
+                                    <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.renderAid')}</li>
+                                    <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.report')}</li>
+                                </SlideOl>
+                            </SlideUl>
+                            <SlideUl>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.sports')}</li>
+                                <SlideOl className="!ml-0">
+                                    <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.pool')}</li>
+                                    <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.ocean')}</li>
+                                    <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.serc')}</li>
+                                </SlideOl>
+                            </SlideUl>
+                            <SlideUl>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.fleet')}</li>
+                                <SlideOl className="!ml-0">
+                                    <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.regions')}</li>
+                                    <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.units')}</li>
+                                    <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.fire')}</li>
+                                </SlideOl>
+                            </SlideUl>
+                        </div>
+                    </Slide>
                     <TitleSlide>
                         <h1>{translate('chapter')} 2</h1>
                         <h2>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.title')}</h2>
                     </TitleSlide>
+                    <Slide>
+                        <h1>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.lifesaver.title')}</h1>
+                        <div className="flex items-center">
+                            <img src={bystander} alt="" className="w-1/5 h-min"/>
+                            <SlideUl>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.lifesaver.preparation')}</li>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.lifesaver.emergencies')}</li>
+                                <SlideUl>
+                                    <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.lifesaver.renderAid')}</li>
+                                </SlideUl>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.lifesaver.physical')}</li>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.lifesaver.knowledge')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.lifeguard.title')}</h1>
+                        <div className="flex items-center">
+                        <img src={lifeguard} alt="" className="w-1/5 h-min"/>
+                            <SlideUl>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.lifeguard.professional')}</li>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.lifeguard.prevention')}</li>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.lifeguard.knowledge')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.leadership.title')}</h1>
+                        <SlideUl>
+                            <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.leadership.amateurs')}</li>
+                            <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.leadership.aspects')}</li>
+                            <SlideOl>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.leadership.delegate')}</li>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.leadership.check')}</li>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.leadership.correct')}</li>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.leadership.evaluate')}</li>
+                            </SlideOl>
+                        </SlideUl>
+                    </Slide>
+                    <Slide>
+                        <h1>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.ambassadors.title')}</h1>
+                        <SlideUl>
+                            <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.ambassadors.careful')}</li>
+                            <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.ambassadors.inform')}</li>
+                        </SlideUl>
+                    </Slide>
                     <Slide>
                         <Link to=".." relative="path"
                               className="mr-8 !no-underline bg-transparent hover:bg-orange-500 !text-orange-400 font-semibold hover:!text-white py-2 px-4 border border-orange-300 hover:border-transparent rounded">

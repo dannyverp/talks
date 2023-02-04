@@ -93,10 +93,106 @@
             "lesson7": "Herhaling, quiz en vragen"
           },
           "associations": {
-            "title": "Reddingsbrigade: organisatie en activiteiten"
+            "title": "Reddingsbrigade: organisatie en activiteiten",
+            "swimming": {
+              "title": "Zwemmen in Nederland",
+              "legal": "Overal legaal, behalve uitzonderingen:",
+              "exceptions1": "Vaarwegen en veerpont routes",
+              "exceptions": "In havens en bij bruggen, sluizen en viaducten",
+              "notices": "Staat niet altijd ter plekke aangegeven maar wel in wet vastgelegd",
+              "risks": "Zwemmen in open water is altijd op eigen risico",
+              "locations": "750 aangewezen zwemlocatie te vinden op"
+            },
+            "history": {
+              "title": "Oprichting en geschiedenis",
+              "foundedAs": "Opgericht in 1917 als",
+              "foundedBy": "door reddingsbrigades: Den Bosch, Amsterdam, Breda, Den Haag en Haarlem",
+              "goal": "Doel is eenheid in lesstof en reddingstechnieken",
+              "royal": "Vanaf 1952 het predicaat Koninklijke Bond",
+              "rename": "Vanaf 2007 hernoemd naar Reddingsbrigade Nederland met KNBRD als statutaire naam"
+            },
+            "organisation": {
+              "title": "Organisatie Reddingsbrigades",
+              "organisation": "Organisaties",
+              "operational": "Hulpverlening",
+              "sports": "Lifesavingsport",
+              "ils": "International Life Saving Federation (ILS)",
+              "conference": "Organiseer world conference on drowning prevention",
+              "ilsResponsibilities": "Normstelling voor preventie, hulpverlening, sport en zakelijke belangen.",
+              "wc": "WK Lifesaving",
+              "ilse": "ILS Europe (ILSE)",
+              "ilseResponsibilities": "Normstelling binnen Europa voor opleiding, hulpverlening, sport, bestuur en beleid.",
+              "ec": "EK Lifesaving",
+              "reddingsbrigadeNL": "Reddingsbrigade Nederland",
+              "nationalResponsibilities1": "Nationale normstelling voor opleiding, hulpverlening, sport.",
+              "nationalResponsibilities2": "Opdrachtnemer Nationale Reddingsvloot samen met de brandweer.",
+              "nk": "NK Lifesaving",
+              "individuals": "Invidiuele reddingsbrigades",
+              "individualsResponsibilities": "Uitvoeren toezicht en hulpverlening",
+              "educate":  "Opleidingen",
+              "sport": "Lifesaving sport",
+              "clubChampionship": "Clubwedstrijden"
+            },
+            "trainings": {
+              "title": "Lifesaving-opleidingen",
+              "intro": "Doel is op sportieve manier zelfredzaamheid vergroten en het leren van basisvaardigheden. Lifesavers kunnen zichzelf en anderen redden.",
+              "training": "Opleiding",
+              "content": "Inhoud",
+              "junior": "Junior Redder 1 t/m 4",
+              "selfRescue": "Na het zwem-abc op spelende wijze zelfredzaamheid vergroten.",
+              "rescuer": "Zwemmend Redder 1 t/m 4",
+              "rescue": "Leren van het uitvoeren met hulp- of reddingsmiddelen waarbij veilig handelen centraal staat.",
+              "lifesaver": "Lifesaver 1 t/m 3",
+              "lifesaving": "Een lifesaver leert o.a. eerste hulp en werkt verder aan de vakbekwaamheid. Heeft de kennis en vaardigheden om in geval van nood een ander te kunnen redden."
+            },
+            "activities": {
+              "title": "Andere activiteiten",
+              "operational": "Waterhulpverlening",
+              "educate": "Voorlichten",
+              "guard": "Toezicht houden",
+              "stepIn": "Vroegtijdig ingrijpen",
+              "renderAid": "Hulp verlenen",
+              "report": "Rapporteren",
+              "sports": "Lifesavingsport",
+              "pool": "Pool events",
+              "ocean": "Ocean events",
+              "serc": "SERC",
+              "fleet": "Nationale reddingsvloot",
+              "regions": "22 veiligheidsregio's",
+              "units": "4 eenheden per regio",
+              "fire": "Mix van brandweer en reddingsbrigade"
+            }
           },
           "lifesaver": {
-            "title": "De rol en verantwoordelijkheden van een lifesaver"
+            "title": "De rol en verantwoordelijkheden van een lifesaver",
+            "lifesaver": {
+              "title": "Wat is een lifesaver?",
+              "preparation": "Voorbereid op lifesaving sport of lifeguard opleiding",
+              "emergencies": "Kan ingrijpen bij een noodsituatie met hulp- of reddingsmiddelen voor handen",
+              "renderAid": "Passantenhulpverning bijv. bij schaatsen, boswandeling, auto ongeluk, etc.",
+              "physical": "Voldoende conditie voor een redding",
+              "knowledge": "Voldoende kennis van stroming, ziekteverwekkers en andere gevaren voor een veilige redding"
+            },
+            "lifeguard": {
+              "title": "Wat is een lifeguard?",
+              "professional": "Hulpverlening en preventie op professioneel niveau",
+              "prevention": "Uitvoeren van preventieve en voorlichtende taak",
+              "knowledge": "Uitgebreide kennis van gevaren en risico's voorkomen op het water"
+            },
+            "leadership": {
+              "title": "Lifesaver als Leidinggevende",
+              "amateurs": "Vaak aan omstanders zonder ervaring",
+              "aspects": "Belangerijke aspecten bij leidig geven:",
+              "delegate": "Delegeren",
+              "check": "Controleren",
+              "correct": "Corrigeren",
+              "evaluate": "Evalueren"
+            },
+            "ambassadors": {
+              "title": "Ambassadeur voor waterveiligheid",
+              "careful": "Behoedzaam zijn op risico's",
+              "inform": "Mensen in je omgeving informeren"
+            }
           }
         },
         "safety": {
