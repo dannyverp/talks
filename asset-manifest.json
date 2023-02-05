@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c499211.css",
-    "main.js": "/static/js/main.0b306a61.js",
+    "main.css": "/static/css/main.62bf27e6.css",
+    "main.js": "/static/js/main.b460d8b2.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/rescue.jpg": "/static/media/rescue.8c1a27e58a0961717a55.jpg",
     "static/media/101.png": "/static/media/101.3e1589750ef0936b189f.png",
@@ -13,14 +13,18 @@
     "static/media/voertuigen.jpeg": "/static/media/voertuigen.77c9a7fc277c0281e658.jpeg",
     "static/media/source-sans-pro-semibolditalic.ttf": "/static/media/source-sans-pro-semibolditalic.522a9ee9b3b2ecbdd367.ttf",
     "static/media/source-sans-pro-italic.ttf": "/static/media/source-sans-pro-italic.10a5cb40054505a4b3a9.ttf",
+    "static/media/lifeguards.jpg": "/static/media/lifeguards.28c3c4b54aef6dc67f3f.jpg",
     "static/media/swimmer.jpg": "/static/media/swimmer.11f6e732b8ebecd4eb57.jpg",
     "static/media/lifeguard.jpg": "/static/media/lifeguard.3cad401214a62bbaa56c.jpg",
+    "static/media/history.webp": "/static/media/history.9f27c28fa5e408f57a6e.webp",
     "static/media/backend.jpg": "/static/media/backend.7d1ceb50f0e424cda8b0.jpg",
+    "static/media/sports.jpg": "/static/media/sports.83e90607eaee3788ea33.jpg",
     "static/media/source-sans-pro-semibold.woff": "/static/media/source-sans-pro-semibold.f11ba60ae1c65b37e616.woff",
     "static/media/source-sans-pro-regular.woff": "/static/media/source-sans-pro-regular.d16535500d9438afb409.woff",
     "static/media/source-sans-pro-semibolditalic.woff": "/static/media/source-sans-pro-semibolditalic.a43f56accdef4a0b01f0.woff",
     "static/media/source-sans-pro-italic.woff": "/static/media/source-sans-pro-italic.983d97ca59e8e24e94c6.woff",
     "static/media/lifesaver.jpg": "/static/media/lifesaver.98e8709111a42b4f410d.jpg",
+    "static/media/nrv.jpg": "/static/media/nrv.3059220278c337705939.jpg",
     "static/media/source-sans-pro-semibold.eot": "/static/media/source-sans-pro-semibold.83db537e62224a779338.eot",
     "static/media/source-sans-pro-regular.eot": "/static/media/source-sans-pro-regular.36443d248c8a75fde2a6.eot",
     "static/media/rb.jpg": "/static/media/rb.16a859998b26e71b049e.jpg",
@@ -30,12 +34,12 @@
     "static/media/bystander.webp": "/static/media/bystander.ebb2590e80114f927e4f.webp",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.4c499211.css.map": "/static/css/main.4c499211.css.map",
-    "main.0b306a61.js.map": "/static/js/main.0b306a61.js.map",
+    "main.62bf27e6.css.map": "/static/css/main.62bf27e6.css.map",
+    "main.b460d8b2.js.map": "/static/js/main.b460d8b2.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c499211.css",
-    "static/js/main.0b306a61.js"
+    "static/css/main.62bf27e6.css",
+    "static/js/main.b460d8b2.js"
   ]
 }
