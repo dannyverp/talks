@@ -47,7 +47,7 @@
         "subtitle": "en hoe Nederlandse hulpdiensten ermee omgaan",
         "1-agenda": {
           "title": "Agenda",
-          "1": "Organisatie hulpverlening",
+          "1": "Organisatie h ulpverlening",
           "2": "Gecoördineerde Regionale \n Incidentbestrijdingsprocedure",
           "3": "Grootschalige Geneeskundige \n Bijstand",
           "4": "Grootschalige inzet politie",
@@ -129,7 +129,7 @@
               "nk": "NK Lifesaving",
               "individuals": "Invidiuele reddingsbrigades",
               "individualsResponsibilities": "Uitvoeren toezicht en hulpverlening",
-              "educate":  "Opleidingen",
+              "educate": "Opleidingen",
               "sport": "Lifesaving sport",
               "clubChampionship": "Clubwedstrijden"
             },
@@ -144,6 +144,19 @@
               "rescue": "Leren van het uitvoeren met hulp- of reddingsmiddelen waarbij veilig handelen centraal staat.",
               "lifesaver": "Lifesaver 1 t/m 3",
               "lifesaving": "Een lifesaver leert o.a. eerste hulp en werkt verder aan de vakbekwaamheid. Heeft de kennis en vaardigheden om in geval van nood een ander te kunnen redden."
+            },
+            "lifeguard": {
+              "title": "Lifeguard opleidingen",
+              "intro": "Doel is om professioneel inzetbaar te worden bij evenementen en bewakingen bij open water en strand locaties.",
+              "training": "Opleiding",
+              "specialization": "Specialisaties",
+              "junior": "Junior Lifeguard Open Water & Beach",
+              "none": "Geen",
+              "lifeguard": "Lifeguard Open Water & Beach",
+              "rescue": "Chauffeur\nO&G\n Schipper Open Water\n Schipper Beach\nSchipper RWC",
+              "senior": "Senior Lifeguard",
+              "seniorSpecialisations": "Schipper",
+              "ovd": "Officier van Dienst"
             },
             "activities": {
               "title": "Andere activiteiten",
@@ -169,7 +182,7 @@
               "title": "Wat is een lifesaver?",
               "preparation": "Voorbereid op lifesaving sport of lifeguard opleiding",
               "emergencies": "Kan ingrijpen bij een noodsituatie met hulp- of reddingsmiddelen voor handen",
-              "renderAid": "Passantenhulpverning bijv. bij schaatsen, boswandeling, auto ongeluk, etc.",
+              "renderAid": "Passanten hulpverlening bijv. bij schaatsen, boswandeling, auto ongeluk, etc.",
               "physical": "Voldoende conditie voor een redding",
               "knowledge": "Voldoende kennis van stroming, ziekteverwekkers en andere gevaren voor een veilige redding"
             },
@@ -182,7 +195,7 @@
             "leadership": {
               "title": "Lifesaver als Leidinggevende",
               "amateurs": "Vaak aan omstanders zonder ervaring",
-              "aspects": "Belangerijke aspecten bij leidig geven:",
+              "aspects": "Belangrijke aspecten bij leiding geven:",
               "delegate": "Delegeren",
               "check": "Controleren",
               "correct": "Corrigeren",

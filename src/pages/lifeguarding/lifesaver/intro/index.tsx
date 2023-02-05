@@ -7,6 +7,10 @@ import {FaCaretLeft, FaCaretRight} from "react-icons/fa";
 import {Link} from "react-router-dom";
 import bystander from "assets/img/bystander.webp"
 import lifeguard from "assets/img/lifeguard.jpeg"
+import lifeguards from "assets/img/lifeguards.jpg"
+import sports from "assets/img/sports.jpg"
+import history from "assets/img/history.webp"
+import nrv from "assets/img/nrv.jpg"
 
 const Intro = () => {
 
@@ -70,21 +74,28 @@ const Intro = () => {
                             </SlideUl>
                             <li>{translate('slides.lifeguarding.lifesaver.intro.associations.swimming.notices')}</li>
                             <li className="text-red-400">{translate('slides.lifeguarding.lifesaver.intro.associations.swimming.notices')}</li>
-                            <li>{translate('slides.lifeguarding.lifesaver.intro.associations.swimming.locations')} <a href="https://zwemwater.nl">zwemwater.nl</a>
+                            <li>{translate('slides.lifeguarding.lifesaver.intro.associations.swimming.locations')} <a
+                                href="https://zwemwater.nl">zwemwater.nl</a>
                             </li>
                         </SlideUl>
                     </Slide>
                     <Slide>
                         <h1>{translate('slides.lifeguarding.lifesaver.intro.associations.history.title')}</h1>
-                        <SlideUl>
-                            <li>{translate('slides.lifeguarding.lifesaver.intro.associations.history.foundedAs')} <strong className="!text-orange-400 font-extrabold">Nederlansche Bond tot het Redden van Drenkelingen</strong> {translate('slides.lifeguarding.lifesaver.intro.associations.history.foundedBy')}
-                            </li>
+                        <div className="flex items-center">
+                            <img src={history} className="w-1/3 h-min" alt=""/>
                             <SlideUl>
-                                <li>{translate('slides.lifeguarding.lifesaver.intro.associations.history.goal')}</li>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.associations.history.foundedAs')}
+                                    <strong className="!text-orange-400 font-extrabold">Nederlansche Bond tot het Redden
+                                        van
+                                        Drenkelingen</strong> {translate('slides.lifeguarding.lifesaver.intro.associations.history.foundedBy')}
+                                </li>
+                                <SlideUl>
+                                    <li>{translate('slides.lifeguarding.lifesaver.intro.associations.history.goal')}</li>
+                                </SlideUl>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.associations.history.royal')}</li>
+                                <li>{translate('slides.lifeguarding.lifesaver.intro.associations.history.rename')}</li>
                             </SlideUl>
-                            <li>{translate('slides.lifeguarding.lifesaver.intro.associations.history.royal')}</li>
-                            <li>{translate('slides.lifeguarding.lifesaver.intro.associations.history.rename')}</li>
-                        </SlideUl>
+                        </div>
                     </Slide>
                     <Slide>
                         <h1>{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.title')}</h1>
@@ -108,7 +119,8 @@ const Intro = () => {
                             <tr>
                                 <td className="font-extrabold">{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.ilse')}</td>
                                 <td className="!gap-y-1">
-                                    <p className="!mt-0 !mb-0">{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.ilseResponsibilities')}</p></td>
+                                    <p className="!mt-0 !mb-0">{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.ilseResponsibilities')}</p>
+                                </td>
                                 <td>{translate('slides.lifeguarding.lifesaver.intro.associations.organisation.ec')}</td>
                             </tr>
                             <tr>
@@ -158,10 +170,43 @@ const Intro = () => {
                         </table>
                     </Slide>
                     <Slide>
+                        <h1>{translate('slides.lifeguarding.lifesaver.intro.associations.lifeguard.title')}</h1>
+                        <p>{translate('slides.lifeguarding.lifesaver.intro.associations.lifeguard.intro')}</p>
+                        <table>
+                            <thead>
+                            <tr className="font-bold">
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.lifeguard.training')}</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.lifeguard.specialization')}</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.lifeguard.junior')}</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.lifeguard.none')}</td>
+                            </tr>
+                            <tr>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.lifeguard.lifeguard')}</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.lifeguard.rescue')}</td>
+                            </tr>
+                            <tr>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.lifeguard.senior')}</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.lifeguard.seniorSpecialisations')}</td>
+                            </tr>
+                            <tr>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.lifeguard.ovd')}</td>
+                                <td>{translate('slides.lifeguarding.lifesaver.intro.associations.lifeguard.none')}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </Slide>
+                    <Slide>
                         <h1>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.title')}</h1>
-                        <div className="flex space-x-3">
+                        <h3>
+                            {translate('slides.lifeguarding.lifesaver.intro.associations.activities.operational')}
+                        </h3>
+                        <div className="flex space-x-3 items-center">
+                            <img src={lifeguards} className="w-2/3 h-min" alt=""/>
                             <SlideUl>
-                                <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.operational')}</li>
                                 <SlideOl className="!ml-0">
                                     <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.educate')}</li>
                                     <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.guard')}</li>
@@ -170,16 +215,33 @@ const Intro = () => {
                                     <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.report')}</li>
                                 </SlideOl>
                             </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.title')}</h1>
+                        <h3>
+                            {translate('slides.lifeguarding.lifesaver.intro.associations.activities.sports')}
+                        </h3>
+                        <div className="flex space-x-3 items-center">
+                            <img src={sports} className="w-2/3 h-min" alt=""/>
                             <SlideUl>
-                                <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.sports')}</li>
                                 <SlideOl className="!ml-0">
                                     <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.pool')}</li>
                                     <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.ocean')}</li>
                                     <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.serc')}</li>
                                 </SlideOl>
                             </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide iframe="https://www.youtube.com/embed/D3ZnbsUbMdQ"/>
+                    <Slide>
+                        <h1>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.title')}</h1>
+                        <h3>
+                            {translate('slides.lifeguarding.lifesaver.intro.associations.activities.fleet')}
+                        </h3>
+                        <div className="flex space-x-3 items-center">
+                            <img src={nrv} className="w-2/3 h-min" alt=""/>
                             <SlideUl>
-                                <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.fleet')}</li>
                                 <SlideOl className="!ml-0">
                                     <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.regions')}</li>
                                     <li>{translate('slides.lifeguarding.lifesaver.intro.associations.activities.units')}</li>
@@ -210,7 +272,7 @@ const Intro = () => {
                     <Slide>
                         <h1>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.lifeguard.title')}</h1>
                         <div className="flex items-center">
-                        <img src={lifeguard} alt="" className="w-1/5 h-min"/>
+                            <img src={lifeguard} alt="" className="w-1/5 h-min"/>
                             <SlideUl>
                                 <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.lifeguard.professional')}</li>
                                 <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.lifeguard.prevention')}</li>
@@ -220,7 +282,14 @@ const Intro = () => {
                     </Slide>
                     <Slide>
                         <h1>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.leadership.title')}</h1>
-                        <SlideUl>
+                        <SlideUl className="fragment">
+                            <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.leadership.amateurs')}</li>
+                            <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.leadership.aspects')}</li>
+                        </SlideUl>
+                    </Slide>
+                    <Slide>
+                        <h1>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.leadership.title')}</h1>
+                        <SlideUl className="fragment">
                             <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.leadership.amateurs')}</li>
                             <li>{translate('slides.lifeguarding.lifesaver.intro.lifesaver.leadership.aspects')}</li>
                             <SlideOl>

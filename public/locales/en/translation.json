@@ -129,7 +129,7 @@
               "nk": "National Championship Lifesaving",
               "individuals": "Individual associations",
               "individualsResponsibilities": "Execute prevention and rescues at locations/events",
-              "educate":  "Training",
+              "educate": "Training",
               "sport": "Lifesaving sport",
               "clubChampionship": "Club Championships"
             },
@@ -144,6 +144,19 @@
               "rescue": "Learning the basics of a rescue where safety of the rescuers is a key element.",
               "lifesaver": "Lifesaver 1 - 3",
               "lifesaving": "A lifesaver learns some first aid and works further to become a skilled rescuer. Has the ability to rescue themselves and others when passing an emergency situation."
+            },
+            "lifeguard": {
+              "title": "Lifeguard Trainings",
+              "intro": "Goal is to train professional lifeguards for operations at events and locations like open water and beach.",
+              "training": "Training",
+              "specialization": "Specialisations",
+              "junior": "Junior Lifeguard Open Water & Beach",
+              "none": "None",
+              "lifeguard": "Lifeguard Open Water & Beach",
+              "rescue": "Chauffeur\nLights & Sirens\n Skipper Open Water\n Skipper Beach\nSkipper RWC",
+              "senior": "Senior Lifeguard",
+              "seniorSpecialisations": "Skipper",
+              "ovd": "Duty Officer"
             },
             "activities": {
               "title": "Other activities",
