@@ -1,9 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.62bf27e6.css",
-    "main.js": "/static/js/main.b460d8b2.js",
+    "main.css": "/static/css/main.de95f3b1.css",
+    "main.js": "/static/js/main.847b82a8.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/wrikken.gif": "/static/media/wrikken.a4d2964f10cf0114a7d4.gif",
+    "static/media/sidestroke.gif": "/static/media/sidestroke.0924aa45f095fdddb1ff.gif",
+    "static/media/elementaryBackstroke.gif": "/static/media/elementaryBackstroke.923ce64550ece44091a6.gif",
+    "static/media/threading.gif": "/static/media/threading.2c1ef7a26b498e7317d1.gif",
+    "static/media/omenom.gif": "/static/media/omenom.304ad1fd5ad8a148eab6.gif",
     "static/media/rescue.jpg": "/static/media/rescue.8c1a27e58a0961717a55.jpg",
+    "static/media/oldEnglish.gif": "/static/media/oldEnglish.11a7a13c8c19e198962e.gif",
     "static/media/101.png": "/static/media/101.3e1589750ef0936b189f.png",
     "static/media/frontend.jpg": "/static/media/frontend.3be721bbf4f4a24f26c4.jpg",
     "static/media/major.jpg": "/static/media/major.86e80b003499a5c84c3e.jpg",
@@ -13,14 +19,18 @@
     "static/media/voertuigen.jpeg": "/static/media/voertuigen.77c9a7fc277c0281e658.jpeg",
     "static/media/source-sans-pro-semibolditalic.ttf": "/static/media/source-sans-pro-semibolditalic.522a9ee9b3b2ecbdd367.ttf",
     "static/media/source-sans-pro-italic.ttf": "/static/media/source-sans-pro-italic.10a5cb40054505a4b3a9.ttf",
+    "static/media/frontCrawl.gif": "/static/media/frontCrawl.d72fd924d80ec01e1949.gif",
     "static/media/lifeguards.jpg": "/static/media/lifeguards.28c3c4b54aef6dc67f3f.jpg",
     "static/media/swimmer.jpg": "/static/media/swimmer.11f6e732b8ebecd4eb57.jpg",
+    "static/media/breastStroke.gif": "/static/media/breastStroke.881b77c745b0461246a5.gif",
+    "static/media/backCrawl.gif": "/static/media/backCrawl.793a72b77df167aa398a.gif",
     "static/media/lifeguard.jpg": "/static/media/lifeguard.3cad401214a62bbaa56c.jpg",
     "static/media/history.webp": "/static/media/history.9f27c28fa5e408f57a6e.webp",
     "static/media/backend.jpg": "/static/media/backend.7d1ceb50f0e424cda8b0.jpg",
     "static/media/sports.jpg": "/static/media/sports.83e90607eaee3788ea33.jpg",
     "static/media/source-sans-pro-semibold.woff": "/static/media/source-sans-pro-semibold.f11ba60ae1c65b37e616.woff",
     "static/media/source-sans-pro-regular.woff": "/static/media/source-sans-pro-regular.d16535500d9438afb409.woff",
+    "static/media/floating.jpg": "/static/media/floating.e167eff2cf8c5c033e34.jpg",
     "static/media/source-sans-pro-semibolditalic.woff": "/static/media/source-sans-pro-semibolditalic.a43f56accdef4a0b01f0.woff",
     "static/media/source-sans-pro-italic.woff": "/static/media/source-sans-pro-italic.983d97ca59e8e24e94c6.woff",
     "static/media/lifesaver.jpg": "/static/media/lifesaver.98e8709111a42b4f410d.jpg",
@@ -34,12 +44,12 @@
     "static/media/bystander.webp": "/static/media/bystander.ebb2590e80114f927e4f.webp",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.62bf27e6.css.map": "/static/css/main.62bf27e6.css.map",
-    "main.b460d8b2.js.map": "/static/js/main.b460d8b2.js.map",
+    "main.de95f3b1.css.map": "/static/css/main.de95f3b1.css.map",
+    "main.847b82a8.js.map": "/static/js/main.847b82a8.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62bf27e6.css",
-    "static/js/main.b460d8b2.js"
+    "static/css/main.de95f3b1.css",
+    "static/js/main.847b82a8.js"
   ]
 }

@@ -38,6 +38,7 @@
   },
   "back": "Back",
   "chapter": "Chapter",
+  "contents": "Contents",
   "next": "Next presentation",
   "overview": "Back to overview",
   "slides": {
@@ -211,7 +212,102 @@
         "safety": {
           "title": "Swimming skills, safety awareness and self-rescue",
           "swimming-skills": {
-            "title": "Swimming skills for lifesaving"
+            "title": "Swimming skills",
+            "contents": {
+              "strokes": "Swimming strokes",
+              "self-rescue": "Self-rescue techniques",
+              "entering": "Entering the water",
+              "diving": "Diving"
+            },
+            "intro": "Let's look at the different swimming strokes a lifesaver uses",
+            "open-water-vs-pool": "Swimming in open water is generally more challenging than the pool",
+            "lifesaver-age": "Lifesaving competitions in open water are ages 14+",
+            "sidestroke": {
+              "title": "Sidestroke",
+              "energy": "Low energy consumption",
+              "transport": "Used in transporting victims long distance"
+            },
+            "elementary-backstroke": {
+              "title": "Elementary Backstroke",
+              "energy": "Low energy consumption",
+              "transport": "Used in transporting victims long distance"
+            },
+            "double-arm-backstroke": {
+              "title": "Double-arm Backstroke",
+              "energy": "Low energy consumption",
+              "self-rescue": "Used mainly for self-rescue",
+              "rest": "Two moments of rest",
+              "attention": "Easy to draw attention by shouting & waving"
+            },
+            "breast-stroke": {
+              "title": "Breaststroke",
+              "energy": "Moderate energy consumption",
+              "communication": "Communication with your victim is possible",
+              "aboveWater": "Head can be kept above water to maintain eye contact"
+            },
+            "front-crawl": {
+              "title": "Front Crawl",
+              "energy": "High energy consumption",
+              "fastest": "Generally fasted method of getting to victim",
+              "communication": "Communication with your victim is possible",
+              "aboveWater": "Head can be kept above water to maintain eye contact"
+            },
+            "back-crawl": {
+              "title": "Back Crawl",
+              "energy": "Moderate to high energy consumption",
+              "communication": "Communication when swimming towards victim is not possible",
+              "direction": "Hard to maintain correct direction",
+              "tubeRescue": "Can be used in tube rescue to communicate with victim",
+              "aboveWater": "Head can be kept above water to breath continuously"
+            },
+            "self-rescue-skills": {
+              "title": "Self rescue skills",
+              "floating": {
+                "title": "Floating",
+                "important": "Important to be able to save energy for a long time while waiting for help",
+                "cold": "Increased contact area makes it unsuitable for cold water"
+              },
+              "threading": {
+                "title": "Treading water",
+                "persist": "Persist at a long time, low energy",
+                "attention": "Wave to grab attention for help"
+              },
+              "sculling": {
+                "title": "Sculling",
+                "distance": "Used to traverse short distances when you accidentally enter the water",
+                "energy": "Preserves the most energy and warmth"
+              }
+            },
+            "entering": {
+              "title": "Entering the water",
+              "running": {
+                "title": "Running",
+                "quickest": "This is the quickest way",
+                "careful": "Be careful of uneven grounds",
+                "ankles": "Lift your ankles above the water for less resistance"
+              },
+              "diving": {
+                "title": "Diving"
+              },
+              "careful": {
+                "title": "Carefully sliding in"
+              },
+              "stride": {
+                "title": "Giant stride"
+              },
+              "jump": {
+                "title": "Start dive"
+              },
+              "upright": {
+                "title": "Upright jump"
+              },
+              "compact": {
+                "title": "Compact jump"
+              },
+              "lifejacket": {
+                "title": "Jumping with a life jacket"
+              }
+            }
           },
           "safety-awareness": {
             "title": "Safety awareness"
