@@ -38,6 +38,7 @@
   },
   "back": "Terug",
   "chapter": "Hoofdstuk",
+  "contents": "Inhoud",
   "next": "Volgende presentatie",
   "overview": "Terug naar overzicht",
   "slides": {
@@ -211,7 +212,34 @@
         "safety": {
           "title": "Zwemvaardigheid, Veiligheidsbewustzijn en zelfredding",
           "swimming-skills": {
-            "title": "Zwemvaardigheid voor lifesaving"
+            "title": "Zwemvaardigheid voor lifesaving",
+            "contents": {
+              "strokes": "Zwemslage",
+              "self-rescue": "Zelfredding",
+              "entering": "Te water gaan",
+              "diving": "Duiken"
+            },
+            "intro": "Dit hoofdstuk kijkt naar het waterwerk van een lifesaver",
+            "open-water-vs-pool": "Zwemmen in het open water is over het algemeen lastiger dan in het zwembad",
+            "lifesaver-age": "Lifesaving wedstrijden in open water zijn voor de leeftijden 14 en ouder",
+            "sidestroke": {
+              "title": "Side Stroke"
+            },
+            "elementary-backstroke": {
+              "title": "Elementary Backstroke"
+            },
+            "double-arm-backstroke": {
+              "title": "Double-arm Backstroke"
+            },
+            "breast-stroke": {
+              "title": "Breaststroke"
+            },
+            "front-crawl": {
+              "title": "Front Crawl"
+            },
+            "back-crawl": {
+              "title": "Back Crawl"
+            }
           },
           "safety-awareness": {
             "title": "Veiligheidsbewustzijn"

@@ -37,22 +37,24 @@ const SlideTitle = ({children}: slideTitle) => {
 }
 
 interface slideUl {
-    children: React.ReactElement | React.ReactElement[]
+    children?: React.ReactElement | React.ReactElement[],
+    start?: number
+    className?: string
 }
 
-const SlideUl = ({children}: slideUl) => {
+const SlideUl = ({children, start, className}: slideUl) => {
     return (
         <ul className="text-left space-y-6 list-disc marker:!text-indigo-500">{children}</ul>
     )
 }
 
-interface slideUl {
-    children: React.ReactElement | React.ReactElement[],
+interface slideOl {
+    children?: React.ReactElement | React.ReactElement[],
     start?: number
     className?: string
 }
 
-const SlideOl = ({children, start, className}: slideUl) => {
+const SlideOl = ({children, start, className}: slideOl) => {
     return (
         <ol className={classNames(className, "text-left space-y-6 list-disc marker:!text-indigo-500")}
             start={start}>{children}</ol>
