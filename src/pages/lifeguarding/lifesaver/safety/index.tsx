@@ -4,7 +4,7 @@ import {TitleSlide} from "components/slides/Title";
 import {useTranslation} from "react-i18next";
 import {Slide, SlideOl, SlideUl} from "components/slides/Slide";
 import {Link} from "react-router-dom";
-import {FaCaretLeft, FaCaretRight} from "react-icons/fa";
+import {FaCaretLeft, FaCaretRight, FaPlus, FaQuestion} from "react-icons/fa";
 import sidestroke from "assets/img/sidestroke.gif"
 import elementaryBackstroke from "assets/img/elementaryBackstroke.gif"
 import oldEnglish from "assets/img/oldEnglish.gif"
@@ -15,7 +15,16 @@ import floating from "assets/img/floating.jpg"
 import omenom from "assets/img/omenom.gif"
 import treading from "assets/img/threading.gif"
 import sculling from "assets/img/wrikken.gif"
-
+import voorzichtig from "assets/img/voorzichtig.jpg"
+import schrede from "assets/img/schrede.jpg"
+import duiken from "assets/img/duiken.jpg"
+import compact from "assets/img/compactjump.jpg"
+import redvest1 from "assets/img/redvest1.jpg"
+import redvest2 from "assets/img/redvest2.jpg"
+import surfaceDive from "assets/img/hoekduik.gif"
+import dompen from "assets/img/dompen.jpg"
+import diving from "assets/img/duiken.webp"
+import beachBoard from "assets/img/beachBoard.jpg"
 
 const Safety = () => {
 
@@ -188,34 +197,521 @@ const Safety = () => {
                     <Slide>
                         <h1>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.diving.title')}</h1>
                         <div className="flex">
-                            <iframe width="100%" src="https://www.youtube.com/embed/wk-8Duu7otQ?start=13"
+                            <iframe width="100%" className="w-1/3"
+                                    src="https://www.youtube.com/embed/wk-8Duu7otQ?start=13"
                                     title="YouTube video player" frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowFullScreen></iframe>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.diving.avoid')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.diving.protect')}</li>
+                            </SlideUl>
                         </div>
                     </Slide>
                     <Slide>
                         <h1>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.careful.title')}</h1>
+                        <div className="flex">
+                            <img className="w-1/3" src={voorzichtig} alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.careful.facing')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.careful.depth')}</li>
+                            </SlideUl>
+                        </div>
                     </Slide>
                     <Slide>
                         <h1>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.stride.title')}</h1>
+                        <div className="flex">
+                            <img className="w-1/3" src={schrede} alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.stride.leap')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.stride.fins')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.stride.depth')}</li>
+                            </SlideUl>
+                        </div>
                     </Slide>
                     <Slide>
                         <h1>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.jump.title')}</h1>
+                        <div className="flex">
+                            <img className="w-1/3" src={duiken} alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.jump.quick')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.jump.depth')}</li>
+                            </SlideUl>
+                        </div>
                     </Slide>
                     <Slide>
                         <h1>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.upright.title')}</h1>
+                        <div className="flex">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Wo7V6bgs-go?start=518"
+                                    title="YouTube video player" frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen></iframe>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.upright.height')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.upright.depth')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.upright.equipment')}</li>
+                            </SlideUl>
+                        </div>
                     </Slide>
                     <Slide>
                         <h1>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.compact.title')}</h1>
+                        <div className="flex">
+                            <img className="w-1/3" src={compact} alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.compact.heights')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.compact.protection')}</li>
+                            </SlideUl>
+                        </div>
                     </Slide>
                     <Slide>
                         <h1>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.lifejacket.title')}</h1>
+                        <div className="flex">
+                            <div className="flex flex-col w-1/3">
+                                <img className="!m-0" src={redvest1} alt=""/>
+                                <img className="!m-0" src={redvest2} alt=""/>
+                            </div>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.lifejacket.collar')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.entering.lifejacket.force')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.diving.title')}</h1>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.diving.surfaceDive.title')}</h1>
+                        <div className="flex">
+                            <img src={surfaceDive} className="h-64" alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.diving.surfaceDive.bottom')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.diving.surfaceDive.chance')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.diving.surfaceDive.bottom')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.diving.submerging.title')}</h1>
+                        <div className="flex">
+                            <img src={dompen} className="w-1/3" alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.diving.submerging.search')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.diving.submerging.miss')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.diving.diving.title')}</h1>
+                        <div className="flex">
+                            <img src={diving} className="w-1/3" alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.diving.diving.distance')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.diving.diving.search')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.swimming-skills.diving.diving.careful')}</li>
+                            </SlideUl>
+                        </div>
                     </Slide>
                     <TitleSlide>
                         <h1>{t('translation:chapter')} 4</h1>
                         <h2>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.title')}</h2>
                     </TitleSlide>
+                    <Slide>
+                        <h2>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.do')}</h2>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.preparation.title')}</h1>
+                        <SlideOl>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.preparation.weather')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.preparation.whichWater')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.preparation.lifeguard')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.preparation.training')}</li>
+                        </SlideOl>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.location.title')}</h1>
+                        <SlideOl>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.location.notify')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.location.dangers')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.location.notify')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.location.lifejacket')}</li>
+                        </SlideOl>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.location.title')}</h1>
+                        <div className="flex">
+                            <img src={beachBoard} className="w-1/3 !m-0" alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.board.also')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.title')}</h1>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="bg-red-500 w-full h-full"></div>
+                                <div className="bg-yellow-500 w-full h-full"></div>
+                            </div>
+                            <div className="w-full opacity-0">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.present')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="bg-red-500 w-full h-full"></div>
+                                <div className="bg-yellow-500 w-full h-full"></div>
+                            </div>
+                            <div className="w-full">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.present')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="bg-red-500 w-full h-full"></div>
+                                <div className="bg-red-500 mt-2 w-full h-full"></div>
+                            </div>
+                            <div className="w-full opacity-0">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.forbidden')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="bg-red-500 w-full h-full"></div>
+                                <div className="bg-red-500 mt-2 w-full h-full"></div>
+                            </div>
+                            <div className="w-full">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.forbidden')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="bg-red-500 w-full h-full"></div>
+                            </div>
+                            <div className="w-full opacity-0">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.advised')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="bg-red-500 w-full h-full"></div>
+                            </div>
+                            <div className="w-full">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.advised')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="bg-yellow-500 w-full h-full"></div>
+                            </div>
+                            <div className="w-full opacity-0">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.danger')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="bg-yellow-500 w-full h-full"></div>
+                            </div>
+                            <div className="w-full">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.danger')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="bg-purple-500 w-full h-full"></div>
+                            </div>
+                            <div className="w-full opacity-0">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.marine')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="bg-purple-500 w-full h-full"></div>
+                            </div>
+                            <div className="w-full">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.marine')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="w-0 h-0
+                              border-t-[50px] border-t-transparent
+                              border-l-[300px] border-l-orange-600
+                              border-b-[50px] border-b-transparent">
+                            </div>
+                            <div className="w-full opacity-0">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.inflatables')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="w-0 h-0
+                              border-t-[50px] border-t-transparent
+                              border-l-[300px] border-l-orange-600
+                              border-b-[50px] border-b-transparent">
+                            </div>
+                            <div className="w-full">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.inflatables')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="flex bg-green-500 w-full h-full items-center justify-center">
+                                    <FaPlus className="text-white text-7xl"/>
+                                </div>
+                            </div>
+                            <div className="w-full opacity-0">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.firstAid')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="flex bg-green-500 w-full h-full items-center justify-center">
+                                    <FaPlus className="text-white text-7xl"/>
+                                </div>
+                            </div>
+                            <div className="w-full">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.firstAid')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div
+                                    className="flex bg-white border-2 border-black w-full h-full items-center justify-center">
+                                    <FaQuestion className="text-blue-700 text-7xl"/>
+                                </div>
+                            </div>
+                            <div className="w-full opacity-0">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.child')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div
+                                    className="flex bg-white border-2 border-black w-full h-full items-center justify-center">
+                                    <FaQuestion className="text-blue-700 text-7xl"/>
+                                </div>
+                            </div>
+                            <div className="w-full">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.child')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="bg-red-500 w-1/2 h-1/3 rounded-tl-3xl border-r-2 border-black"></div>
+                                <div className="bg-yellow-500 w-1/2 h-1/3 border-r-2 border-black"></div>
+                                <div className="h-1/3 w-1/2 border-r-2 border-black"></div>
+                            </div>
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="bg-red-500 w-1/2 h-1/3 rounded-tl-3xl border-r-2 border-black"></div>
+                                <div className="bg-yellow-500 w-1/2 h-1/3 border-r-2 border-black"></div>
+                                <div className="h-1/3 w-1/2 border-r-2 border-black"></div>
+                            </div>
+                            <div className="w-full opacity-0">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.area')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="bg-red-500 w-1/2 h-1/3 rounded-tl-3xl border-r-2 border-black"></div>
+                                <div className="bg-yellow-500 w-1/2 h-1/3 border-r-2 border-black"></div>
+                                <div className="h-1/3 w-1/2 border-r-2 border-black"></div>
+                            </div>
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="bg-red-500 w-1/2 h-1/3 rounded-tl-3xl border-r-2 border-black"></div>
+                                <div className="bg-yellow-500 w-1/2 h-1/3 border-r-2 border-black"></div>
+                                <div className="h-1/3 w-1/2 border-r-2 border-black"></div>
+                            </div>
+                            <div className="w-full">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.area')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div
+                                    className="bg-red-500 w-1/2 h-2/3 rounded-tl-3xl border-r-2 border-black text-center flex">
+                                    <div className="text-white rotate-90">Danger</div>
+                                </div>
+                                <div className="h-1/3 w-1/2 border-r-2 border-black"></div>
+                            </div>
+                            <div className="flex w-64 h-32 flex-col">
+                                <div
+                                    className="bg-red-500 w-1/2 h-2/3 rounded-tl-3xl border-r-2 border-black text-center flex">
+                                    <div className="text-white rotate-90">Danger</div>
+                                </div>
+                                <div className="h-1/3 w-1/2 border-r-2 border-black"></div>
+                            </div>
+                            <div className="w-full opacity-0">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.dangerous')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div
+                                    className="bg-red-500 w-1/2 h-2/3 rounded-tl-3xl border-r-2 border-black text-center flex">
+                                    <div className="text-white rotate-90">Danger</div>
+                                </div>
+                                <div className="h-1/3 w-1/2 border-r-2 border-black"></div>
+                            </div>
+                            <div className="flex w-64 h-32 flex-col">
+                                <div
+                                    className="bg-red-500 w-1/2 h-2/3 rounded-tl-3xl border-r-2 border-black text-center flex">
+                                    <div className="text-white rotate-90">Danger</div>
+                                </div>
+                                <div className="h-1/3 w-1/2 border-r-2 border-black"></div>
+                            </div>
+                            <div className="w-full">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.dangerous')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="flex w-1/2 h-1/3">
+                                    <div
+                                        className="bg-black w-1/2 h-full rounded-tl-3xl border-r-2 border-black"></div>
+                                    <div
+                                        className="bg-white w-1/2 h-full border-r-2 border-black border-t-gray-100 border-t-2"></div>
+                                </div>
+                                <div className="flex w-1/2 h-1/3 drop-shadow-xl">
+                                    <div className="bg-white w-1/2 h-full rounded-tl-3xl border-black"></div>
+                                    <div className="bg-black w-1/2 h-full border-r-2 border-black"></div>
+                                </div>
+                                <div className="h-1/3 w-1/2 border-r-2 border-black"></div>
+                            </div>
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="flex w-1/2 h-1/3">
+                                    <div
+                                        className="bg-black w-1/2 h-full rounded-tl-3xl border-r-2 border-black"></div>
+                                    <div
+                                        className="bg-white w-1/2 h-full border-r-2 border-black border-t-gray-100 border-t-2"></div>
+                                </div>
+                                <div className="flex w-1/2 h-1/3 drop-shadow-xl">
+                                    <div className="bg-white w-1/2 h-full rounded-tl-3xl border-black"></div>
+                                    <div className="bg-black w-1/2 h-full border-r-2 border-black"></div>
+                                </div>
+                                <div className="h-1/3 w-1/2 border-r-2 border-black"></div>
+                            </div>
+                            <div className="w-full opacity-0">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.watersports')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <div className="flex">
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="flex w-1/2 h-1/3">
+                                    <div
+                                        className="bg-black w-1/2 h-full rounded-tl-3xl border-r-2 border-black"></div>
+                                    <div
+                                        className="bg-white w-1/2 h-full border-r-2 border-black border-t-gray-100 border-t-2"></div>
+                                </div>
+                                <div className="flex w-1/2 h-1/3 drop-shadow-xl">
+                                    <div className="bg-white w-1/2 h-full rounded-tl-3xl border-black"></div>
+                                    <div className="bg-black w-1/2 h-full border-r-2 border-black"></div>
+                                </div>
+                                <div className="h-1/3 w-1/2 border-r-2 border-black"></div>
+                            </div>
+                            <div className="flex w-64 h-32 flex-col">
+                                <div className="flex w-1/2 h-1/3">
+                                    <div
+                                        className="bg-black w-1/2 h-full rounded-tl-3xl border-r-2 border-black"></div>
+                                    <div
+                                        className="bg-white w-1/2 h-full border-r-2 border-black border-t-gray-100 border-t-2"></div>
+                                </div>
+                                <div className="flex w-1/2 h-1/3 drop-shadow-xl">
+                                    <div className="bg-white w-1/2 h-full rounded-tl-3xl border-black"></div>
+                                    <div className="bg-black w-1/2 h-full border-r-2 border-black"></div>
+                                </div>
+                                <div className="h-1/3 w-1/2 border-r-2 border-black"></div>
+                            </div>
+                            <div className="w-full">
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.safety-awareness.openWater.flags.watersports')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
                     <TitleSlide>
                         <h1>{t('translation:chapter')} 5</h1>
                         <h2>{t('translation:slides.lifeguarding.lifesaver.safety.risks.title')}</h2>
