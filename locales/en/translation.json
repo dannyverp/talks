@@ -287,30 +287,98 @@
                 "ankles": "Lift your ankles above the water for less resistance"
               },
               "diving": {
-                "title": "Diving"
+                "title": "Diving",
+                "avoid": "Avoid wave by diving underneath it",
+                "protect": "Protect your head with your arm and be careful of the undertow"
               },
               "careful": {
-                "title": "Carefully sliding in"
+                "title": "Carefully sliding in",
+                "facing": "Turn around for short amount of time not facing victim for your own safety",
+                "depth": "Ideal for unknown depths or obstacles"
               },
               "stride": {
-                "title": "Giant stride"
+                "title": "Giant stride",
+                "leap": "Lean forward and take a big leap",
+                "fins": "Good way of entering water with fins",
+                "depth": "Only in known depth and no obstacles"
               },
               "jump": {
-                "title": "Start dive"
+                "title": "Start dive",
+                "quick": "Quickly get to your victim",
+                "depth": "Don't do this in shallow or unknown water"
               },
               "upright": {
-                "title": "Upright jump"
+                "title": "Upright jump",
+                "depth": "Only execute in known depth",
+                "height": "Only meant for jumping from lower heights",
+                "equipment": "Can be executed with equipment"
               },
               "compact": {
-                "title": "Compact jump"
+                "title": "Compact jump",
+                "heights": "Meant for higher jumps (up to 3 meters)",
+                "protection": "Protects your mouth and nose from impact"
               },
               "lifejacket": {
-                "title": "Jumping with a life jacket"
+                "title": "Jumping with a life jacket",
+                "collar": "Make sure to hold the colar of the lifejacket when doing to compact jump",
+                "force": "The lifejacket is going to push you upwards"
+              }
+            },
+            "diving": {
+              "title": "Diving",
+              "surfaceDive": {
+                "title": "Surface dive",
+                "chance": "Dive straight to the bottom to search with hands",
+                "bottom": "Streamline as much as possible!",
+                "miss": "When searching in line with hands lower chance of missing a victim"
+              },
+              "submerging": {
+                "title": "Submerging",
+                "search": "Can be used to search the bottom with your feet",
+                "miss": "Higher chance of a miss"
+              },
+              "diving": {
+                "title": "Diving",
+                "distance": "Used to traverse distance underwater to a victim",
+                "search": "Also used in search, keep one hand on the bottom",
+                "careful": "Hold one hand above your head to protect yourself"
               }
             }
           },
           "safety-awareness": {
-            "title": "Safety awareness"
+            "title": "Safety awareness",
+            "openWater": {
+              "do": "What can you do to ensure a safe day swimming in open water?",
+              "preparation": {
+                "title": "Preparation in advance",
+                "weather": "Look at the weather forecast",
+                "whichWater": "Make sure it's an approved swimming location (zwemwater.nl)",
+                "lifeguard": "Check if lifeguards are present",
+                "training": "Training your skills"
+              },
+              "location": {
+                "title": "At location",
+                "notify": "Notify someone that you're going swimming",
+                "dangers": "Check for dangers like marine life, tides, currents, rocks, temperatur, etc.",
+                "lifejacket": "Wear a life jacket aboard vessels (or know where to find them)"
+              },
+              "board": {
+                "also": "Also look for the information board at the beach"
+              },
+              "flags": {
+                "title": "Flags",
+                "present": "Lifeguards present",
+                "forbidden": "Swimming forbidden",
+                "advised": "Indicates dangerous swimming, advices not to swimming",
+                "danger": "Indicates dangerous swimming, advices to be careful",
+                "marine": "Advices not to swim due to dangerous marine life presence",
+                "inflatables": "Be careful for strong offshore winds, floatation devices not allowed",
+                "firstAid": "First aid is present",
+                "child": "A child has been found",
+                "area": "Guarded area",
+                "watersports": "Water sport area"
+              }
+            }
           },
           "risks": {
             "title": "The water and its risks"
