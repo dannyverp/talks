@@ -17,49 +17,74 @@ const Lifesaver = () => {
             <main className="grid gap-4 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 my-16">
                 <article className="flex">
                     <Link to="./intro" relative="path"
-                          className="no-underline flex flex-col xl:flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-zinc-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 w-full">
+                          className="no-underline flex h-full justify-between flex-col xl:flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-zinc-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 w-full">
                         <img
                             className="m-0 object-cover rounded-t-lg xl:w-full md:w-1/2 h-full xl:h-52 md:rounded-none md:rounded-l-lg xl:rounded-t-lg xl:rounded-b-none"
                             src={rn} alt=""/>
                         <div className="flex flex-col justify-between p-4 leading-normal">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{translate('slides.lifeguarding.lifesaver.overview.introduction.title')}</h5>
                             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{translate('slides.lifeguarding.lifesaver.overview.introduction.content')}</p>
+                            <ul className="self">
+                                <li><Link to="intro#/3" relative="path">{translate('chapter')} 1</Link></li>
+                                <li><Link to="intro#/13" relative="path">{translate('chapter')} 2</Link></li>
+                            </ul>
                         </div>
                     </Link>
                 </article>
                 <article className="flex">
                     <Link to="./safety" relative="path"
-                          className="no-underline flex flex-col xl:flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-zinc-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 w-full">
+                          className="no-underline flex h-full justify-between flex-col xl:flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-zinc-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 w-full">
                         <img
                             className="m-0 object-cover rounded-t-lg xl:w-full md:w-1/2 h-full xl:h-52 md:rounded-none md:rounded-l-lg xl:rounded-t-lg xl:rounded-b-none"
                             src={swimmer} alt=""/>
                         <div className="flex flex-col justify-between p-4 leading-normal">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{translate('slides.lifeguarding.lifesaver.overview.safety.title')}</h5>
                             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{translate('slides.lifeguarding.lifesaver.overview.safety.content')}</p>
+                            <div className="flex pt-0">
+                                <ul className="!mr-8">
+                                    <li><Link to="safety#/1" relative="path">{translate('chapter')} 3</Link></li>
+                                    <li><Link to="safety#/27" relative="path">{translate('chapter')} 4</Link></li>
+                                </ul>
+                                <ul>
+                                    <li><Link to="safety#/55" relative="path">{translate('chapter')} 5</Link></li>
+                                    <li><Link to="safety#/76" relative="path">{translate('chapter')} 6</Link></li>
+                                </ul>
+                            </div>
                         </div>
                     </Link>
                 </article>
                 <article className="flex">
                     <Link to="./skills" relative="path"
-                          className="no-underline flex flex-col xl:flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-zinc-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 w-full">
+                          className="no-underline flex h-full justify-between flex-col xl:flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-zinc-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 w-full">
                         <img
                             className="m-0 object-cover rounded-t-lg xl:w-full md:w-1/2 h-full xl:h-52 md:rounded-none md:rounded-l-lg xl:rounded-t-lg xl:rounded-b-none"
                             src={rescue} alt=""/>
                         <div className="flex flex-col justify-between p-4 leading-normal">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{translate('slides.lifeguarding.lifesaver.overview.skills.title')}</h5>
                             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{translate('slides.lifeguarding.lifesaver.overview.skills.content')}</p>
+                            <div className="flex pt-0">
+                                <ul className="!mr-8">
+                                    <li><Link to="skills#/1" relative="path">{translate('chapter')} 7</Link></li>
+                                    <li><Link to="skills#/2" relative="path">{translate('chapter')} 8</Link></li>
+                                </ul>
+                            </div>
                         </div>
                     </Link>
                 </article>
                 <article className="flex">
                     <Link to="./the-rescue" relative="path"
-                          className="no-underline flex flex-col xl:flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-zinc-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 w-full">
+                          className="no-underline flex h-full justify-between flex-col xl:flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-zinc-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 w-full">
                         <img
                             className="m-0 object-cover rounded-t-lg xl:w-full md:w-1/2 h-full xl:h-52 md:rounded-none md:rounded-l-lg xl:rounded-t-lg xl:rounded-b-none"
                             src={lifeguard} alt=""/>
                         <div className="flex flex-col justify-between p-4 leading-normal">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{translate('slides.lifeguarding.lifesaver.overview.aid.title')}</h5>
                             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{translate('slides.lifeguarding.lifesaver.overview.aid.content')}</p>
+                            <div className="flex pt-0">
+                                <ul className="!mr-8">
+                                    <li><Link to="the-rescue#/1" relative="path">{translate('chapter')} 9</Link></li>
+                                </ul>
+                            </div>
                         </div>
                     </Link>
                 </article>
