@@ -376,12 +376,170 @@
                 "firstAid": "First aid is present",
                 "child": "A child has been found",
                 "area": "Guarded area",
+                "dangerous": "Dangers in this are (current, rockets, etc.)",
                 "watersports": "Water sport area"
               }
             }
           },
           "risks": {
-            "title": "The water and its risks"
+            "title": "The water and its risks",
+            "contents": {
+              "nature": "Risks caused by nature",
+              "artificial": "Risks caused by human made structures",
+              "handling": "Risks caused by human behaviour"
+            },
+            "bottom": {
+              "title": "Bottom structure",
+              "gradual": {
+                "title": "Gradual declining bottom",
+                "safest": "Smallest risk",
+                "estimate": "People can estimate how quickly the water becomes deep"
+              },
+              "steep": {
+                "title": "Steep declining bottom",
+                "average": "Average risk",
+                "surprised": "People can be surprised by sudden depth"
+              },
+              "sudden": {
+                "title": "Sudden declining bottom",
+                "high": "High risk",
+                "surprised": "People can be surprised by sudden depth",
+                "currents": "Prone to powerful currents",
+                "breakers": "Has potential for powerful breaking waves"
+              },
+              "uneven": {
+                "title": "Uneven declining bottom",
+                "high": "High risk",
+                "previous": "All previous named dangers"
+              }
+            },
+            "temperature": {
+              "title": "Water temperature",
+              "depth": "Temperature is different with depths",
+              "season": "Also differs per season, hot days does not mean warm water",
+              "health": "Sudden decrease in temperature can cause health issues like cramp or heart attacks",
+              "clothes": "Make sure you dress appropriate for temperature (e.g. wetsuite)"
+            },
+            "storm": {
+              "title": "Thunderstorm",
+              "sudden": "Can be very sudden in nature",
+              "evacuate": "Evacuate the water and large open areas",
+              "against": "Often moves against wind",
+              "count": "Use 30/10 rules: 30 seconds between thunder and lightning or less is within 10km",
+              "track": "Can use lightningmaps.org to check"
+            },
+            "wind": {
+              "title": "Wind direction",
+              "direction": "The wind is described by where it comes from",
+              "prevalent": "The prevalent wind is south-west"
+            },
+            "windforce": {
+              "title": "Wind force",
+              "direction": "The wind is described by where it comes from",
+              "prevalent": "The prevalent wind is south-west",
+              "scale": "Scale",
+              "name": "Name",
+              "beach": "Noticeable on beach",
+              "water": "Noticeable on water",
+              "0": {
+                "name": "Windstil",
+                "beach": "Flags hang down",
+                "water": "Flat surface"
+              },
+              "3": {
+                "name": "Medium wind",
+                "beach": "Flags dance in wind",
+                "water": "Small waves"
+              },
+              "6": {
+                "name": "Powerful wind",
+                "beach": "Flags are drawn tight, sand is blown around on the ground",
+                "water": "A bigger swell, breaking waves"
+              },
+              "9": {
+                "name": "Storm",
+                "beach": "Sand is blown into the air",
+                "water": "High waves as far as you can see often with foam"
+              },
+              "12": {
+                "name": "Hurricane",
+                "beach": "Sand is thrown over the dunes land inwards as high as rooftops, poor visibility",
+                "water": "No distinction between land and water"
+              }
+            },
+            "land-direction": {
+              "offshore": {
+                "title": "Offshore winds",
+                "swimmers": "Dangerous for swimmers",
+                "floating": "Extra dangerous for floatation devices"
+              },
+              "toshore": {
+                "title": "To shore winds",
+                "bathers": "Dangerous for bathers",
+                "undertow": "Potentially a dangerous undertow"
+              }
+            },
+            "tides": {
+              "title": "Tides",
+              "forces": "Tides are created by positioning of the moon, earth and sun",
+              "directions": "Determines (togeth with seafloor) direction of flow and wave intensity"
+            },
+            "beach": {
+              "title": "Currents at the beach",
+              "riptides": "Riptides can be extremely dangerous!",
+              "recognizing": "Generally calmer, deeper waters but with a lot of current. Hard to recognize",
+              "directions": "Swim along to the shore to get to a sandbar, then swim in"
+            },
+            "waves": {
+              "title": "Wave anatomy"
+            },
+            "currents": {
+              "title": "Moving water",
+              "river": "In a river the center will flow fastest on straights and on the outer side in bends",
+              "reasons": "Other reasons water flows:",
+              "height": "Height differences",
+              "wind": "Wind",
+              "ships": "Shipping traffic"
+            },
+            "biological": {
+              "title": "Biological dangers",
+              "bacteria": "Bacteria",
+              "blueGreenAlgae": "Blue-green algae",
+              "botulism": "Botulism",
+              "tetanus": "Tetanus",
+              "weil": "Weil's disease",
+              "parasites": "Parasites and insects",
+              "itch": "Swimmer's itch",
+              "ticks": "Tick",
+              "satin": "Satin moth caterpillar",
+              "weever": "Weever",
+              "jellyfish": "Jellyfish",
+              "seals": "Seals & Porpoise"
+            },
+            "artificial": {
+              "title": "Artificial risks",
+              "breakwater": "Breakwaters",
+              "pile": "pile heads",
+              "harbours": "Harbours",
+              "weirs": "Weirs",
+              "docks": "Docks",
+              "bridges": "Bridges",
+              "ships": "Ships"
+            },
+            "vortices": {
+              "title": "Vortices"
+            },
+            "human": {
+              "title": "Risks by human activity",
+              "sport": "(Unprepared) sporting activities",
+              "alone": "Swimming alone",
+              "weaker": "Being a weaker swimmer",
+              "showoff": "Being a showoff/overconfident",
+              "children": "Children without supervision (smartphones!)",
+              "alcohol": "Swimming whilst inebriated",
+              "training": "Swimming without training",
+              "floating": "Using floatating devices with offshore winds"
+            }
           },
           "self-rescue": {
             "title": "Self-rescue"

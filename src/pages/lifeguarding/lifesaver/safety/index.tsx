@@ -25,6 +25,17 @@ import surfaceDive from "assets/img/hoekduik.gif"
 import dompen from "assets/img/dompen.jpg"
 import diving from "assets/img/duiken.webp"
 import beachBoard from "assets/img/beachBoard.jpg"
+import aflopend from "assets/img/aflopend.png"
+import stijl from "assets/img/stijl.png"
+import plotseling from "assets/img/plotseling.png"
+import ongelijk from "assets/img/ongelijk.png"
+import windroos from "assets/img/windroos.jpg"
+import aflandig from "assets/img/aflandig.jpg"
+import aanlandig from "assets/img/aanlandig.jpg"
+import tides from "assets/img/tides.gif"
+import currents from "assets/img/currents.png"
+import waves from "assets/img/wave.png"
+import vortices from "assets/img/vortices.jpg"
 
 const Safety = () => {
 
@@ -716,6 +727,251 @@ const Safety = () => {
                         <h1>{t('translation:chapter')} 5</h1>
                         <h2>{t('translation:slides.lifeguarding.lifesaver.safety.risks.title')}</h2>
                     </TitleSlide>
+                    <Slide>
+                        <h1>{t('translation:contents')}</h1>
+                        <SlideOl>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.contents.nature')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.contents.artificial')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.contents.handling')}</li>
+                        </SlideOl>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.title')}</h1>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.gradual.title')}</h1>
+                        <div className="flex">
+                            <img src={aflopend} alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.gradual.safest')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.gradual.estimate')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.steep.title')}</h1>
+                        <div className="flex">
+                            <img src={stijl} alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.steep.average')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.steep.surprised')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.sudden.title')}</h1>
+                        <div className="flex">
+                            <img src={plotseling} alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.sudden.high')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.sudden.surprised')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.sudden.currents')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.sudden.breakers')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.uneven.title')}</h1>
+                        <div className="flex">
+                            <img src={ongelijk} alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.uneven.high')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.bottom.uneven.previous')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.temperature.title')}</h1>
+                        <SlideUl>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.temperature.depth')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.temperature.season')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.temperature.health')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.temperature.clothes')}</li>
+                        </SlideUl>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.storm.title')}</h1>
+                        <SlideUl>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.storm.sudden')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.storm.evacuate')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.storm.against')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.storm.count')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.storm.track')}</li>
+                        </SlideUl>
+                    </Slide>
+                    <Slide>
+                        <div className="flex justify-center items-center">
+                            <img src={windroos} className="w-1/3" alt=""/>
+                            <div>
+                                <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.wind.title')}</h1>
+                                <SlideUl>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.wind.direction')}</li>
+                                    <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.wind.prevalent')}</li>
+                                </SlideUl>
+                            </div>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.title')}</h1>
+                        <table>
+                            <thead className="font-bold">
+                            <tr>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.scale')}</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.name')}</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.beach')}</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.water')}</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>0</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.0.name')}</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.0.beach')}</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.0.water')}</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.3.name')}</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.3.beach')}</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.3.water')}</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.6.name')}</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.6.beach')}</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.6.water')}</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.9.name')}</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.9.beach')}</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.9.water')}</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.12.name')}</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.12.beach')}</td>
+                                <td>{t('translation:slides.lifeguarding.lifesaver.safety.risks.windforce.12.water')}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.land-direction.offshore.title')}</h1>
+                        <div className="flex">
+
+                            <img src={aflandig} className="w-1/2" alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.land-direction.offshore.swimmers')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.land-direction.offshore.floating')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.land-direction.toshore.title')}</h1>
+                        <div className="flex">
+                            <img src={aanlandig} className="w-1/2" alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.land-direction.toshore.bathers')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.land-direction.toshore.undertow')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.tides.title')}</h1>
+                        <div className="flex">
+                            <img src={tides} className="w-1/2" alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.tides.forces')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.tides.directions')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.beach.title')}</h1>
+                        <div className="flex">
+                            <img src={currents} className="w-1/4" alt=""/>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.beach.riptides')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.beach.recognizing')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.beach.directions')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.waves.title')}</h1>
+                        <img src={waves} alt=""/>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.currents.title')}</h1>
+                        <p>{t('translation:slides.lifeguarding.lifesaver.safety.risks.currents.river')}</p>
+                        <p>{t('translation:slides.lifeguarding.lifesaver.safety.risks.currents.reasons')}</p>
+                        <SlideUl>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.currents.height')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.currents.wind')}</li>
+                            <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.currents.ships')}</li>
+                        </SlideUl>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.biological.title')}</h1>
+                        <div className="flex">
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.biological.bacteria')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.biological.blueGreenAlgae')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.biological.botulism')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.biological.tetanus')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.biological.weil')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.biological.parasites')}</li>
+                            </SlideUl>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.biological.itch')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.biological.ticks')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.biological.satin')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.biological.weever')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.biological.jellyfish')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.biological.seals')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.artificial.title')}</h1>
+                        <div className="flex justify-center">
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.artificial.breakwater')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.artificial.pile')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.artificial.harbours')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.artificial.weirs')}</li>
+                            </SlideUl>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.artificial.docks')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.artificial.bridges')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.artificial.ships')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.vortices.title')}</h1>
+                        <div className="flex items-center justify-center">
+                            <img src={vortices} className="w-2/3" alt=""/>
+                        </div>
+                    </Slide>
+                    <Slide>
+                        <h1>{t('translation:slides.lifeguarding.lifesaver.safety.risks.human.title')}</h1>
+                        <div className="flex justify-center">
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.human.sport')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.human.alone')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.human.weaker')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.human.showoff')}</li>
+                            </SlideUl>
+                            <SlideUl>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.human.children')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.human.alcohol')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.human.training')}</li>
+                                <li>{t('translation:slides.lifeguarding.lifesaver.safety.risks.human.floating')}</li>
+                            </SlideUl>
+                        </div>
+                    </Slide>
                     <TitleSlide>
                         <h1>{t('translation:chapter')} 6</h1>
                         <h2>{t('translation:slides.lifeguarding.lifesaver.safety.self-rescue.title')}</h2>
