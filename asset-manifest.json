@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e35a5f98.css",
-    "main.js": "/static/js/main.8d2d3399.js",
+    "main.css": "/static/css/main.eded6096.css",
+    "main.js": "/static/js/main.48a83529.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/hoekduik.gif": "/static/media/hoekduik.f37be2872a34eb86f6f6.gif",
     "static/media/wrikken.gif": "/static/media/wrikken.a4d2964f10cf0114a7d4.gif",
@@ -18,12 +18,17 @@
     "static/media/voorzichtig.jpg": "/static/media/voorzichtig.e13cdaad6cfb8d680170.jpg",
     "static/media/duiken.jpg": "/static/media/duiken.33dd667e95130e2ba1f4.jpg",
     "static/media/redvest1.jpg": "/static/media/redvest1.8037006b9c1fd8319fdf.jpg",
+    "static/media/vortices.jpg": "/static/media/vortices.74b532d613de49c1cbfd.jpg",
     "static/media/dompen.jpg": "/static/media/dompen.725da8eacff128de3a5c.jpg",
     "static/media/101.png": "/static/media/101.3e1589750ef0936b189f.png",
+    "static/media/aanlandig.jpg": "/static/media/aanlandig.865f16c17adff1b05b73.jpg",
     "static/media/frontend.jpg": "/static/media/frontend.3be721bbf4f4a24f26c4.jpg",
     "static/media/duiken.webp": "/static/media/duiken.6bbb81b4e38f9c457746.webp",
+    "static/media/aflandig.jpg": "/static/media/aflandig.f44c9ae45e910b82791e.jpg",
     "static/media/major.jpg": "/static/media/major.86e80b003499a5c84c3e.jpg",
+    "static/media/currents.png": "/static/media/currents.52b2a8c1956a13946856.png",
     "static/media/lifeguard.jpeg": "/static/media/lifeguard.52601c9f3d6d558b4e09.jpeg",
+    "static/media/wave.png": "/static/media/wave.4699a2d8d1174f0fd65f.png",
     "static/media/source-sans-pro-regular.ttf": "/static/media/source-sans-pro-regular.45c54810910de71280ab.ttf",
     "static/media/source-sans-pro-semibold.ttf": "/static/media/source-sans-pro-semibold.6ebea875df77b49da05b.ttf",
     "static/media/voertuigen.jpeg": "/static/media/voertuigen.77c9a7fc277c0281e658.jpeg",
@@ -37,6 +42,10 @@
     "static/media/lifeguard.jpg": "/static/media/lifeguard.3cad401214a62bbaa56c.jpg",
     "static/media/history.webp": "/static/media/history.9f27c28fa5e408f57a6e.webp",
     "static/media/backend.jpg": "/static/media/backend.7d1ceb50f0e424cda8b0.jpg",
+    "static/media/aflopend.png": "/static/media/aflopend.59ba0d0b208ba1103fbf.png",
+    "static/media/ongelijk.png": "/static/media/ongelijk.bf5c6529c2e3fb9249aa.png",
+    "static/media/plotseling.png": "/static/media/plotseling.f3447f071fbfab684dfe.png",
+    "static/media/stijl.png": "/static/media/stijl.a4e071a66facb06e12e2.png",
     "static/media/sports.jpg": "/static/media/sports.83e90607eaee3788ea33.jpg",
     "static/media/source-sans-pro-semibold.woff": "/static/media/source-sans-pro-semibold.f11ba60ae1c65b37e616.woff",
     "static/media/source-sans-pro-regular.woff": "/static/media/source-sans-pro-regular.d16535500d9438afb409.woff",
@@ -51,15 +60,17 @@
     "static/media/rn.jpg": "/static/media/rn.2ceef062e456f370fe3f.jpg",
     "static/media/source-sans-pro-italic.eot": "/static/media/source-sans-pro-italic.97e79d3e28a440c77195.eot",
     "static/media/source-sans-pro-semibolditalic.eot": "/static/media/source-sans-pro-semibolditalic.fb03c6601ab6f48952c4.eot",
+    "static/media/tides.gif": "/static/media/tides.4a4e28ea00e73f753971.gif",
     "static/media/bystander.webp": "/static/media/bystander.ebb2590e80114f927e4f.webp",
+    "static/media/windroos.jpg": "/static/media/windroos.7e0ce5fa712519275aca.jpg",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.e35a5f98.css.map": "/static/css/main.e35a5f98.css.map",
-    "main.8d2d3399.js.map": "/static/js/main.8d2d3399.js.map",
+    "main.eded6096.css.map": "/static/css/main.eded6096.css.map",
+    "main.48a83529.js.map": "/static/js/main.48a83529.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e35a5f98.css",
-    "static/js/main.8d2d3399.js"
+    "static/css/main.eded6096.css",
+    "static/js/main.48a83529.js"
   ]
 }
